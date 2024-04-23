@@ -5,12 +5,12 @@
 </section>
 <footer id="footer-area">
     <!-- Footer Call to Action Start -->
-    <div class="footer-callto-action">
+    <!-- <div class="footer-callto-action">
         <div class="ruby-container">
             <div class="callto-action-wrapper">
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
-                        <!-- Single Call-to Action Start -->
+                       
                         <div class="single-callto-action d-flex">
                             <figure class="callto-thumb">
                                 <img src="assets/img/air-plane.png" alt="WorldWide Shipping" />
@@ -20,11 +20,11 @@
                                 <p>ĐƠN HÀNG TRÊN $150 - 7 NGÀY/TUẦN</p>
                             </div>
                         </div>
-                        <!-- Single Call-to Action End -->
+                       
                     </div>
 
                     <div class="col-lg-3 col-md-6">
-                        <!-- Single Call-to Action Start -->
+                       
                         <div class="single-callto-action d-flex">
                             <figure class="callto-thumb">
                                 <img src="assets/img/support.png" alt="Support" />
@@ -34,11 +34,11 @@
                                 <p>GỌI CHO CHÚNG TÔI 24/7</p>
                             </div>
                         </div>
-                        <!-- Single Call-to Action End -->
+                       
                     </div>
 
                     <div class="col-lg-3 col-md-6">
-                        <!-- Single Call-to Action Start -->
+                       
                         <div class="single-callto-action d-flex">
                             <figure class="callto-thumb">
                                 <img src="assets/img/money-back.png" alt="Money Back" />
@@ -48,11 +48,11 @@
                                 <p>GỬI TRONG 30 NGÀY</p>
                             </div>
                         </div>
-                        <!-- Single Call-to Action End -->
+                       
                     </div>
 
                     <div class="col-lg-3 col-md-6">
-                        <!-- Single Call-to Action Start -->
+                       
                         <div class="single-callto-action d-flex">
                             <figure class="callto-thumb">
                                 <img src="assets/img/cog.png" alt="Guide" />
@@ -62,12 +62,12 @@
                                 <p>ĐƯỢC HỖ TRỢ NHIỆT TÌNH!</p>
                             </div>
                         </div>
-                        <!-- Single Call-to Action End -->
+                       
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Footer Call to Action End -->
 
     <!-- Footer Follow Up Area Start -->
