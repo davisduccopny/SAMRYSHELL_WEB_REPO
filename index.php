@@ -23,9 +23,10 @@ $products = $productModel->showProduct();
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <meta name="description" content="Samry - Your trusted partner in virtual button solutions. Explore our innovative seashell-based virtual buttons for a seamless user experience. Được thành lập từ năm 2010, Công ty TNHH Samry là một nhà sản xuất hàng đầu về nút ảo, sử dụng vỏ ốc biển làm nguyên liệu chính. Với sứ mệnh mang lại sự tiện lợi và độ tin cậy cho khách hàng, chúng tôi cam kết cung cấp sản phẩm chất lượng và dịch vụ tận tâm. Ghé thăm website samryvn.com để biết thêm thông tin chi tiết và các sản phẩm của chúng tôi.">
 
-    <title>Home :: Samry Shell-Company</title>
+    <title>Trang chủ || Công ty TNHH sản xuất thương mại Samry|| sản xuất nút áo, phôi nút và các loại trang sức thì vỏ ốc biển </title>
 
     <?php require_once('main/head.php'); ?>
 
