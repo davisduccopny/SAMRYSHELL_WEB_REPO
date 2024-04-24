@@ -1,0 +1,19 @@
+# Disable access to the includes folder
+<FilesMatch "^\.ht">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+RewriteEngine On
+# Ánh xạ URL thân thiện với SEO - Sản phẩm - Bài viết - thông tin chung
+RewriteRule ^san-pham/([0-9]+)/([^/]+).html$ single-product.php?productid=$1&slug=$2 [QSA,L]
+RewriteRule ^bai-viet/([0-9]+)/([^/]+).html$ single-blog.php?blog_id=$1&slug=$2 [QSA,L]
+RewriteRule ^thong-tin-cong-ty/([0-9]+)/([^/]+).html$ about.php?blog_id=$1&slug=$2 [QSA,L]
+# Ánh xạ URL thân thiện với SEO - các trang - pagination
+
+# Ánh xạ URL thân thiện với SEO - các trang - chung
+RewriteRule ^my-account/tai-khoan-cua-toi.html /my-account.php [QSA,L]
+RewriteRule ^bai-viet.html /blog.php [QSA,L]
+RewriteRule ^lien-he.html /contact.php [QSA,L]
+RewriteRule ^trang-chu.html /index.php [QSA,L]
+RewriteRule ^cua-hang.html /shop.php [QSA,L]
+
