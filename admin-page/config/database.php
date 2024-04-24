@@ -1,19 +1,19 @@
 <?php
 
 if (!defined('DB_SERVER')) {
-    define('DB_SERVER', 'localhost');
+    define('DB_SERVER', 'samryvn.com');
 }
 
 if (!defined('DB_USERNAME')) {
-    define('DB_USERNAME', 'root');
+    define('DB_USERNAME', 'samryvnc_admin');
 }
 
 if (!defined('DB_PASSWORD')) {
-    define('DB_PASSWORD', '');
+    define('DB_PASSWORD', 'Hoangquoc@318');
 }
 
 if (!defined('DB_DATABASE')) {
-    define('DB_DATABASE', 'samryshell');
+    define('DB_DATABASE', 'samryvnc_samryshell');
 }
 if (!defined('_WEB_HOST')) {
     define('_WEB_HOST', 'http://'.$_SERVER['HTTP_HOST'].'/');
