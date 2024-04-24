@@ -463,7 +463,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                                     <figure class="product-thumb">
                                         <a href="san-pham/<?php echo $product['id'].'/'.$product['slug'].'.html'; ?>"><img src="<?php
                                                                                                                         $strfirt = './admin-page';
-                                                                                                                        echo  $strfirt . mb_substr($product['image'], 2); ?>" alt="Products" class="img-fluid" style="height: 195px;"></a>
+                                                                                                                        echo  $strfirt . mb_substr($product['image'], 2); ?>" alt="Products" class="img-fluid"></a>
                                     </figure>
 
                                     <div class="product-details">
