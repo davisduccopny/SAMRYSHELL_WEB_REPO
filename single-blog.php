@@ -37,7 +37,32 @@ if (isset($_GET['blog_id'])) :
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="<?php echo $getBlog['description']; ?>">
-        <title><?php echo $getBlog['title']; ?> :: SamryShell-Company</title>
+        <!-- Thẻ meta cho Facebook Open Graph -->
+        <meta property="og:title" content="<?php echo $getBlog['title']; ?> || Công ty TNHH SX-TM Samry">
+        <meta property="og:description" content="<?php echo $getBlog['description']; ?>">
+        <meta property="og:image" content="<?php echo $getBlog['image']; ?>">
+        <meta property="og:url" content="<?php
+                                            $schema = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
+                                            $host = $_SERVER['HTTP_HOST'];
+                                            $path = $_SERVER['REQUEST_URI'];
+                                            $current_url = $schema . $host . $path;
+                                            echo $current_url;
+                                            ?>
+">
+        <meta property="og:type" content="website">
+        <!-- Thẻ meta cho Twitter Cards -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="<?php echo $getBlog['title']; ?> || Công ty TNHH SX-TM Samry">
+        <meta name="twitter:description" content="<?php echo $getBlog['description']; ?>">
+        <meta name="twitter:image" content="<?php echo $getBlog['image']; ?>">
+        <link rel="canonical" href="<?php
+                                    $schema = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
+                                    $host = $_SERVER['HTTP_HOST'];
+                                    $path = $_SERVER['REQUEST_URI'];
+                                    $current_url = $schema . $host . $path;
+                                    echo $current_url;
+                                    ?>">
+        <title><?php echo $getBlog['title']; ?> || Công ty TNHH SX-TM Samry</title>
 
         <?php require_once('main/head.php') ?>
         <!-- START SEO JSON -->

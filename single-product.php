@@ -31,7 +31,32 @@ require './controller/cart_controller.php';
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?php echo $productInfo['short_description']; ?>">
-    <title> <?php echo $productInfo['name']; ?> :: SamryShell-Company</title>
+    <!-- Thẻ meta cho Facebook Open Graph -->
+    <meta property="og:title" content="<?php echo $productInfo['name']; ?> || Công ty TNHH SX-TM Samry">
+    <meta property="og:description" content="<?php echo $productInfo['short_description']; ?>">
+    <meta property="og:image" content="<?php echo _WEB_HOST . '/admin-page' . mb_substr($productInfo['images'][0], 2); ?>">
+    <meta property="og:url" content="<?php
+                                        $schema = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
+                                        $host = $_SERVER['HTTP_HOST'];
+                                        $path = $_SERVER['REQUEST_URI'];
+                                        $current_url = $schema . $host . $path;
+                                        echo $current_url;
+                                        ?>
+">
+    <meta property="og:type" content="website">
+    <!-- Thẻ meta cho Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?php echo $productInfo['name']; ?> || Công ty TNHH SX-TM Samry">
+    <meta name="twitter:description" content="<?php echo $productInfo['short_description']; ?>">
+    <meta name="twitter:image" content="<?php echo _WEB_HOST . '/admin-page' . mb_substr($productInfo['images'][0], 2); ?>">
+    <link rel="canonical" href="<?php
+                                $schema = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
+                                $host = $_SERVER['HTTP_HOST'];
+                                $path = $_SERVER['REQUEST_URI'];
+                                $current_url = $schema . $host . $path;
+                                echo $current_url;
+                                ?>">
+    <title> <?php echo $productInfo['name']; ?> || Công ty TNHH SX-TM Samry</title>
 
     <?php require_once('main/head.php') ?>
 

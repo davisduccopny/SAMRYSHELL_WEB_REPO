@@ -54,8 +54,33 @@ if (isset($_POST['submit_search_blog'])) {
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Samry - Your trusted partner in virtual button solutions. Explore our innovative seashell-based virtual buttons for a seamless user experience. Được thành lập từ năm 2010, Công ty TNHH Samry là một nhà sản xuất hàng đầu về nút ảo, sử dụng vỏ ốc biển làm nguyên liệu chính. Với sứ mệnh mang lại sự tiện lợi và độ tin cậy cho khách hàng, chúng tôi cam kết cung cấp sản phẩm chất lượng và dịch vụ tận tâm. Ghé thăm website samryvn.com để biết thêm thông tin chi tiết và các sản phẩm của chúng tôi.">
-    <title>Blog :: SamryShell-Company</title>
+    <meta name="description" content="Trang Tin tức, giới thiệu những tin tức mới nhất về công ty sản xuất, thương mại Samry">
+    <!-- Thẻ meta cho Facebook Open Graph -->
+    <meta property="og:title" content="Tin Tức || Công ty TNHH SX-TM Samry">
+    <meta property="og:description" content="Trang Tin tức, giới thiệu những tin tức mới nhất về công ty sản xuất, thương mại Samry">
+    <meta property="og:image" content="./assets/img/samryshell-logo.jpg">
+    <meta property="og:url" content="<?php
+                                        $schema = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
+                                        $host = $_SERVER['HTTP_HOST'];
+                                        $path = $_SERVER['REQUEST_URI'];
+                                        $current_url = $schema . $host . $path;
+                                        echo $current_url;
+                                        ?>
+">
+    <meta property="og:type" content="website">
+    <!-- Thẻ meta cho Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tin Tức || Công ty TNHH SX-TM Samry">
+    <meta name="twitter:description" content="Trang Tin tức, giới thiệu những tin tức mới nhất về công ty sản xuất, thương mại Samry">
+    <meta name="twitter:image" content="./assets/img/samryshell-logo.jpg">
+    <title>Tin Tức || Công ty TNHH SX-TM Samry</title>
+    <link rel="canonical" href="<?php
+                                $schema = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
+                                $host = $_SERVER['HTTP_HOST'];
+                                $path = $_SERVER['REQUEST_URI'];
+                                $current_url = $schema . $host . $path;
+                                echo $current_url;
+                                ?>">
     <?php require_once('main/head.php'); ?>
     <!-- START SEO JSON -->
     <script type="application/ld+json">
