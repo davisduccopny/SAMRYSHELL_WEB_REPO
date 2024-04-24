@@ -31,7 +31,15 @@
 <!-- Modernizer JS -->
 <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
 <link rel="stylesheet" type="text/css" href="admin-page/view/assets/plugins/toastr/toatr.css">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8WVXJJKVQC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-8WVXJJKVQC');
+</script>
 
 
 <!--[if lt IE 9]>
