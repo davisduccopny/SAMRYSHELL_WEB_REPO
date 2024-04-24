@@ -15,7 +15,7 @@
 <meta name="keywords" content="nút áo, nút ấn, phôi nút, seashell, seashells, shell, shells, seashell art, shell art, seashell crafts, shell crafts, shell products, seashell design, shell design, seashell model, shell model, seashell applications, shell applications, seashell collecting art, seashell collecting, button design, shell design, seashell decor, shell decor, seashell decoration art, seashell art, seashell images, button images, seashell decorations, seashell decorating, shell art, shell art, shell model, seashell art, seashell art, shell art, seashell art">
 <meta name="robots" content="index, follow">
 <meta name="google-analytics" content="G-8WVXJJKVQC">
-<base href="http://localhost/">
+<base href="samryvn.com">
 
 <!--== Google Fonts ==-->
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" />
