@@ -28,15 +28,15 @@ if (isset($_GET['blog_id'])) :
     if (isset($_SESSION['email_customer'])) {
         $getCTmer = $customerModel->getCustomer_email($_SESSION['email_customer']);
     }
-// LAY URL TRANG HIEN TAI
+    // LAY URL TRANG HIEN TAI
 
-$schema_URL = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
-$host_URL = $_SERVER['HTTP_HOST'];
-$path_URL = $_SERVER['REQUEST_URI'];
-$current_url_PAGE = $schema_URL . $host_URL . $path_URL;
-$current_file_PAGE = 'bai-viet.html';
+    $schema_URL = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
+    $host_URL = $_SERVER['HTTP_HOST'];
+    $path_URL = $_SERVER['REQUEST_URI'];
+    $current_url_PAGE = $schema_URL . $host_URL . $path_URL;
+    $current_file_PAGE = 'bai-viet.html';
 
-// END LAY URL TRANG HIEN TAI
+    // END LAY URL TRANG HIEN TAI
 ?>
     <!DOCTYPE html>
     <html class="no-js" lang="zxx">
@@ -45,25 +45,24 @@ $current_file_PAGE = 'bai-viet.html';
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title><?php echo $getBlog['title']; ?></title>
         <meta name="description" content="<?php echo $getBlog['description']; ?>">
         <!-- Thẻ meta cho Facebook Open Graph -->
-        <meta property="og:title" content="<?php echo $getBlog['title']; ?> || Công ty TNHH SX-TM Samry">
+        <meta property="og:title" content="<?php echo $getBlog['title']; ?>">
         <meta property="og:description" content="<?php echo $getBlog['description']; ?>">
         <meta property="og:image" content="<?php echo $getBlog['image']; ?>">
         <meta property="og:url" content="<?php echo $current_url_PAGE; ?>">
-        <meta property="og:type" content="website">
+        <meta property="og:type" content="article" />
         <!-- Thẻ meta cho Twitter Cards -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="<?php echo $getBlog['title']; ?> || Công ty TNHH SX-TM Samry">
+        <meta name="twitter:title" content="<?php echo $getBlog['title']; ?>">
         <meta name="twitter:description" content="<?php echo $getBlog['description']; ?>">
         <meta name="twitter:image" content="<?php echo $getBlog['image']; ?>">
         <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">
-        <title><?php echo $getBlog['title']; ?> || Công ty TNHH SX-TM Samry</title>
-
-        <?php require_once('main/head.php') ?>
+        <link rel="amphtml" href="<?php echo $current_url_PAGE; ?>" />
         <!-- START SEO JSON -->
         <script type="application/ld+json">
-            {
+            [{
                 "@context": "https://schema.org",
                 "@type": "BlogPosting",
                 "headline": "<?php echo $getBlog['title']; ?>",
@@ -71,7 +70,8 @@ $current_file_PAGE = 'bai-viet.html';
                 "dateModified": "<?php echo $getBlog['date']; ?>",
                 "author": {
                     "@type": "Person",
-                    "name": "samry"
+                    "name": "samry",
+                    "url": "https://samryvn.com/"
                 },
                 "image": "<?php echo _WEB_HOST . '/admin-page' . mb_substr($getBlog['image'], 2); ?>",
                 "publisher": {
@@ -82,9 +82,53 @@ $current_file_PAGE = 'bai-viet.html';
                         "url": "https://samryvn.com/assets/img/samryshell-logo.jpg"
                     }
                 }
-            }
+            }, {
+                "@context": "https://schema.org/",
+                "@type": "Rating",
+                "itemReviewed": {
+                    "@type": "CreativeWork",
+                    "name": "<?php echo $getBlog['title']; ?>",
+                    "url": "<?php echo $current_url_PAGE; ?>"
+                },
+                "ratingValue": 5,
+                "bestRating": 5,
+                "worstRating": 1,
+                "author": {
+                    "@type": "Organization",
+                    "name": "Công ty TNHH SẢN XUẤT THƯƠNG MẠI Samry"
+                },
+                "reviewBody": "This is a great post!",
+                "datePublished": "<?php echo $getBlog['date']; ?>"
+            }, {
+                "@context": "https://schema.org",
+                "@type": "ClaimReview",
+                "url": "<?php echo $current_url_PAGE; ?>",
+                "claimReviewed": "<?php echo $getBlog['title']; ?>",
+                "itemReviewed": {
+                    "@type": "Claim",
+                    "author": {
+                        "@type": "Organization",
+                        "name": "Công ty TNHH SẢN XUẤT THƯƠNG MẠI Samry"
+                    },
+                    "datePublished": "<?php echo $getBlog['date']; ?>"
+                },
+                "author": {
+                    "@type": "Organization",
+                    "name": "Công ty TNHH SẢN XUẤT THƯƠNG MẠI Samry"
+                },
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": 5,
+                    "bestRating": "5",
+                    "worstRating": "1",
+                    "alternateName": "False"
+                }
+            }]
         </script>
         <!-- END SEO JSON -->
+
+        <?php require_once('main/head.php') ?>
+
     </head>
 
     <body>
@@ -286,22 +330,22 @@ $current_file_PAGE = 'bai-viet.html';
                                         <?php foreach ($showBlog_recent as $showBlog_r) : ?>
                                             <div class="single-product-item">
                                                 <figure class="product-thumb">
-                                                    <a href="bai-viet/<?php echo $showBlog_r['id']. '/' . $showBlog_r['slug'] . '.html'; ?>"><img class="img-fluid" src="<?php echo 'admin-page' . mb_substr($showBlog_r['image'], 2); ?>" alt="Products" /></a>
+                                                    <a href="bai-viet/<?php echo $showBlog_r['id'] . '/' . $showBlog_r['slug'] . '.html'; ?>"><img class="img-fluid" src="<?php echo 'admin-page' . mb_substr($showBlog_r['image'], 2); ?>" alt="Products" /></a>
                                                 </figure>
                                                 <div class="product-details">
-                                                    <h2><a href="bai-viet/<?php echo $showBlog_r['id']. '/' . $showBlog_r['slug'] . '.html'; ?>"><?php echo $showBlog_r['title']; ?></a></h2>
+                                                    <h2><a href="bai-viet/<?php echo $showBlog_r['id'] . '/' . $showBlog_r['slug'] . '.html'; ?>"><?php echo $showBlog_r['title']; ?></a></h2>
                                                     <span class="price">
                                                         <?php
                                                         $date_show_single = $showBlog_r['date'] ?? null;
                                                         if (is_string($date_show_single)) {
-                                                            $formatted_date_2 = date("d/F/Y", strtotime($date_show_single)); 
+                                                            $formatted_date_2 = date("d/F/Y", strtotime($date_show_single));
                                                             echo $formatted_date_2;
                                                         } else {
                                                             echo 'No date available';
                                                         }
                                                         ?>
                                                     </span>
-                                                    <a href="bai-viet/<?php echo $showBlog_r['id']. '/' . $showBlog_r['slug'] . '.html'; ?>" class="btn-add-to-cart">Read More <i class="fa fa-long-arrow-right"></i></a>
+                                                    <a href="bai-viet/<?php echo $showBlog_r['id'] . '/' . $showBlog_r['slug'] . '.html'; ?>" class="btn-add-to-cart">Read More <i class="fa fa-long-arrow-right"></i></a>
                                                 </div>
                                             </div>
                                         <?php endforeach; ?>

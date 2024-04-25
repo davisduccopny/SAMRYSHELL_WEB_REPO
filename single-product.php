@@ -38,6 +38,7 @@ $current_file_PAGE = 'cua-hang.html';
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> <?php echo $productInfo['name']; ?> || Công ty TNHH SX-TM Samry</title>
     <meta name="description" content="<?php echo $productInfo['short_description']; ?>">
     <!-- Thẻ meta cho Facebook Open Graph -->
     <meta property="og:title" content="<?php echo $productInfo['name']; ?> || Công ty TNHH SX-TM Samry">
@@ -51,10 +52,7 @@ $current_file_PAGE = 'cua-hang.html';
     <meta name="twitter:description" content="<?php echo $productInfo['short_description']; ?>">
     <meta name="twitter:image" content="<?php echo _WEB_HOST . '/admin-page' . mb_substr($productInfo['images'][0], 2); ?>">
     <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">
-    <title> <?php echo $productInfo['name']; ?> || Công ty TNHH SX-TM Samry</title>
-
-    <?php require_once('main/head.php') ?>
-
+    <link rel="amphtml" href="<?php echo $current_url_PAGE; ?>" />
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -78,6 +76,9 @@ $current_file_PAGE = 'cua-hang.html';
             }
         }
     </script>
+    <?php require_once('main/head.php') ?>
+
+
 
 
 </head>
@@ -126,7 +127,7 @@ $current_file_PAGE = 'cua-hang.html';
                                             foreach ($productInfo['images'] as $image) {
                                                 $image = './admin-page' . substr($image, 2);
                                                 echo '<div class="single-thumb-item">
-                                                        <a href="'.$current_file_PAGE.'"><img class="img-fluid"
+                                                        <a href="' . $current_file_PAGE . '"><img class="img-fluid"
                                                                                            src="' . $image . '"
                                                                                            alt="Product"/></a>
                                                     </div>';

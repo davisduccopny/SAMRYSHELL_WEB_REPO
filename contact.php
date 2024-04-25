@@ -30,7 +30,8 @@ $current_url_PAGE = $schema_URL . $host_URL . $path_URL;
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Liên hệ Samryvn || Được thành lập từ năm 2010, Công ty TNHH Samry là một nhà sản xuất hàng đầu về nút ảo, sử dụng vỏ ốc biển làm nguyên liệu chính. Với sứ mệnh mang lại sự tiện lợi và độ tin cậy cho khách hàng, chúng tôi cam kết cung cấp sản phẩm chất lượng và dịch vụ tận tâm. Ghé thăm website samryvn.com để biết thêm thông tin chi tiết và các sản phẩm của chúng tôi.">
+    <title>Liên hệ || Công ty TNHH SX-TM Samry</title>
+    <meta name="description" content="Liên hệ Samryvn || Liên hệ hotline công ty 0936.095.515, email: support@samryvn.com, Cập nhật những thông tin mới nhất liên quan đến doanh nghiệp">
     <!-- Thẻ meta cho Facebook Open Graph -->
     <meta property="og:title" content="Liên hệ || Công ty TNHH SX-TM Samry">
     <meta property="og:description" content="Liên hệ hotline công ty 0936.095.515, email: support@samryvn.com, Cập nhật những thông tin mới nhất liên quan đến doanh nghiệp">
@@ -43,13 +44,9 @@ $current_url_PAGE = $schema_URL . $host_URL . $path_URL;
     <meta name="twitter:description" content="Liên hệ hotline công ty 0936.095.515, email: support@samryvn.com, Cập nhật những thông tin mới nhất liên quan đến doanh nghiệp">
     <meta name="twitter:image" content="./assets/img/samryshell-logo.jpg">
     <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">
-    <title>Liên hệ || Công ty TNHH SX-TM Samry</title>
-
-
-    <?php require_once('main/head.php'); ?>
-
-    <!-- START SEO JSON -->
-    <script type="application/ld+json">
+    <link rel="amphtml" href="<?php echo $current_url_PAGE; ?>" />
+        <!-- START SEO JSON -->
+        <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "Organization",
@@ -64,6 +61,9 @@ $current_url_PAGE = $schema_URL . $host_URL . $path_URL;
         }
     </script>
     <!-- END SEO JSON -->
+    <?php require_once('main/head.php'); ?>
+
+
 </head>
 
 <body>

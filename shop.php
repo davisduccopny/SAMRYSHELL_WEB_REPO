@@ -68,22 +68,21 @@ $current_file_PAGE = 'cua-hang.html';
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Được thành lập từ năm 2010, Công ty TNHH Samry là một nhà sản xuất hàng đầu về nút ảo, sử dụng vỏ ốc biển làm nguyên liệu chính. Với sứ mệnh mang lại sự tiện lợi và độ tin cậy cho khách hàng, chúng tôi cam kết cung cấp sản phẩm chất lượng và dịch vụ tận tâm. Ghé thăm website samryvn.com để biết thêm thông tin chi tiết và các sản phẩm của chúng tôi.">
+    <title>Trang bán hàng || Công ty TNHH Sản xuất Thương mại Samry</title>
+    <meta name="description" content="Trang bán hàng || Công ty TNHH Sản xuất Thương mại Samry sản xuất nút áo, phôi nút và các loại trang sức thì vỏ ốc biển. Ghé thăm để lựa chọn cho mình những bộ nút áo ưng ý nhất.">
     <!-- Thẻ meta cho Facebook Open Graph -->
-    <meta property="og:title" content="Trang bán hàng || Công ty TNHH Sản xuất Thương mại Samry sản xuất nút áo, phôi nút và các loại trang sức thì vỏ ốc biển">
-    <meta property="og:description" content="Tham quan những mặt hàng mới nhất, trải nghiệm khám phá các trang sức tuyệt đẹp từ vỏ ốc">
+    <meta property="og:title" content="Trang bán hàng || Công ty TNHH Sản xuất Thương mại Samry">
+    <meta property="og:description" content="Công ty TNHH Sản xuất Thương mại Samry sản xuất nút áo, phôi nút và các loại trang sức thì vỏ ốc biển. Ghé thăm để lựa chọn cho mình những bộ nút áo ưng ý nhất.">
     <meta property="og:image" content="./assets/img/samryshell-logo.jpg">
     <meta property="og:url" content="<?php echo $current_url_PAGE; ?>">
     <meta property="og:type" content="website">
     <!-- Thẻ meta cho Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Trang bán hàng || Công ty TNHH Sản xuất Thương mại Samry sản xuất nút áo, phôi nút và các loại trang sức thì vỏ ốc biển">
-    <meta name="twitter:description" content="Tham quan những mặt hàng mới nhất, trải nghiệm khám phá các trang sức tuyệt đẹp từ vỏ ốc">
+    <meta name="twitter:title" content="Trang bán hàng || Công ty TNHH Sản xuất Thương mại Samry">
+    <meta name="twitter:description" content="Công ty TNHH Sản xuất Thương mại Samry sản xuất nút áo, phôi nút và các loại trang sức thì vỏ ốc biển. Ghé thăm để lựa chọn cho mình những bộ nút áo ưng ý nhất.">
     <meta name="twitter:image" content="./assets/img/samryshell-logo.jpg">
     <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">
-    <title>Sản phẩm || Công ty TNHH SX-TM Samry</title>
-    <?php require_once('main/head.php'); ?>
-
+    <link rel="amphtml" href="<?php echo $current_url_PAGE; ?>" />
     <!-- START SEO JSON -->
     <script type="application/ld+json">
         {
@@ -100,6 +99,7 @@ $current_file_PAGE = 'cua-hang.html';
         }
     </script>
     <!-- END SEO JSON -->
+    <?php require_once('main/head.php'); ?>
 </head>
 
 <body>
@@ -146,7 +146,7 @@ $current_file_PAGE = 'cua-hang.html';
                                         <h4>DANH MỤC</h4>
                                         <ul class="sidebar-list">
                                             <?php foreach ($categorylist as $category) : ?>
-                                                <li><a href="<?php echo $current_file_PAGE."?category=" . $category['categoryproduct_id']; ?>" data-category="<?php echo $category['categoryproduct_id'];  ?>"><?php echo $category['name']; ?></a></li>
+                                                <li><a href="<?php echo $current_file_PAGE . "?category=" . $category['categoryproduct_id']; ?>" data-category="<?php echo $category['categoryproduct_id'];  ?>"><?php echo $category['name']; ?></a></li>
                                             <?php endforeach; ?>
                                         </ul>
                                     </div>
@@ -362,7 +362,7 @@ $current_file_PAGE = 'cua-hang.html';
                                         $endPage = min($totalPages, $page + $numAdjacentPages);
 
                                         if ($startPage > 1) {
-                                            echo '<li><a href="'.$current_file_PAGE.'?page=1">1</a></li>';
+                                            echo '<li><a href="' . $current_file_PAGE . '?page=1">1</a></li>';
                                             if ($startPage > 2) {
                                                 echo '<li><span>...</span></li>';
                                             }

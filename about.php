@@ -13,15 +13,15 @@ $generalListshow = $GeneralModel->getGeneral(1);
 if (isset($_GET['blog_id'])) :
 
     $showBlog = $BlogModel->getBlog($_GET['blog_id']);
-    
-// LAY URL TRANG HIEN TAI
 
-$schema_URL = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
-$host_URL = $_SERVER['HTTP_HOST'];
-$path_URL = $_SERVER['REQUEST_URI'];
-$current_url_PAGE = $schema_URL . $host_URL . $path_URL;
+    // LAY URL TRANG HIEN TAI
 
-// END LAY URL TRANG HIEN TAI
+    $schema_URL = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
+    $host_URL = $_SERVER['HTTP_HOST'];
+    $path_URL = $_SERVER['REQUEST_URI'];
+    $current_url_PAGE = $schema_URL . $host_URL . $path_URL;
+
+    // END LAY URL TRANG HIEN TAI
 ?>
     <!DOCTYPE html>
     <html class="no-js" lang="zxx">
@@ -30,7 +30,8 @@ $current_url_PAGE = $schema_URL . $host_URL . $path_URL;
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Được thành lập từ năm 2010, Công ty TNHH Samry là một nhà sản xuất hàng đầu về nút ảo, sử dụng vỏ ốc biển làm nguyên liệu chính. Với sứ mệnh mang lại sự tiện lợi và độ tin cậy cho khách hàng, chúng tôi cam kết cung cấp sản phẩm chất lượng và dịch vụ tận tâm. Ghé thăm website samryvn.com để biết thêm thông tin chi tiết và các sản phẩm của chúng tôi.">
+        <title><?php echo  $showBlog['title']; ?> || Công ty TNHH SX-TM SamRy</title>
+        <meta name="description" content="<?php echo  $showBlog['description']; ?>">
         <!-- Thẻ meta cho Facebook Open Graph -->
         <meta property="og:title" content="<?php echo  $showBlog['title']; ?>">
         <meta property="og:description" content="<?php echo  $showBlog['description']; ?>">
@@ -43,8 +44,7 @@ $current_url_PAGE = $schema_URL . $host_URL . $path_URL;
         <meta name="twitter:description" content="<?php echo  $showBlog['description']; ?>">
         <meta name="twitter:image" content="./assets/img/samryshell-logo.jpg">
         <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">
-        <title><?php echo  $showBlog['title']; ?> || Công ty TNHH SX-TM SamRy</title>
-        <?php require_once('main/head.php'); ?>
+        <link rel="amphtml" href="<?php echo $current_url_PAGE; ?>" />
         <!-- START SEO JSON -->
         <script type="application/ld+json">
             {
@@ -67,9 +67,10 @@ $current_url_PAGE = $schema_URL . $host_URL . $path_URL;
                     }
                 }
             }
-            
         </script>
         <!-- END SEO JSON -->
+        <?php require_once('main/head.php'); ?>
+
     </head>
 
     <body>
@@ -191,7 +192,7 @@ $current_url_PAGE = $schema_URL . $host_URL . $path_URL;
                                     <div class="post-info">
                                         <a href="<?php echo $current_url_PAGE; ?>"><i class="fa fa-user"></i> ShamryShell</a>
                                         <a href="<?php echo $current_url_PAGE; ?>"><i class="fa fa-calendar"></i><?php $created_at = date('m/d/Y', strtotime($showBlog['date']));
-                                                                                    echo $created_at; ?></a>
+                                                                                                                    echo $created_at; ?></a>
                                     </div>
                                 </div>
                             </div>

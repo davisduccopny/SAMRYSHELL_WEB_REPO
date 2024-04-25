@@ -26,14 +26,15 @@ $current_cua_hang_PAGE = 'cua-hang.html';
 // END LAY URL TRANG HIEN TAI
 ?>
 <!DOCTYPE html>
-<html class="no-js" lang="zxx" lang="en">
+<html class="no-js" lang="zxx">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="Trang chủ || Được thành lập từ năm 2010, Công ty TNHH Samry là một nhà sản xuất hàng đầu về nút ảo, sử dụng vỏ ốc biển làm nguyên liệu chính. Với sứ mệnh mang lại sự tiện lợi và độ tin cậy cho khách hàng, chúng tôi cam kết cung cấp sản phẩm chất lượng và dịch vụ tận tâm. Ghé thăm website samryvn.com để biết thêm thông tin chi tiết và các sản phẩm của chúng tôi.">
+    <title>Trang chủ || Công ty TNHH sản xuất thương mại Samry|| sản xuất nút áo, phôi nút và các loại trang sức thì vỏ ốc biển </title>
+    <meta name="keywords" content="Công ty TNHH Samry, samry, samryvn, Công ty TNHH Sản xuất Thương mại Samry, Vỏ ốc, Shell, seashell, nút áo, phôi nút, shirt button, Button blank">
+    <meta name="description" content="Được thành lập từ năm 2010, Công ty TNHH Samry là một nhà sản xuất hàng đầu về nút ảo, sử dụng vỏ ốc biển làm nguyên liệu chính. Với sứ mệnh mang lại sự tiện lợi và độ tin cậy cho khách hàng, chúng tôi cam kết cung cấp sản phẩm chất lượng và dịch vụ tận tâm. Ghé thăm website samryvn.com để biết thêm thông tin chi tiết và các sản phẩm của chúng tôi.">
     <!-- Thẻ meta cho Facebook Open Graph -->
     <meta property="og:title" content="Trang chủ Công ty TNHH sản xuất thương mại Samry|| sản xuất nút áo, phôi nút và các loại trang sức thì vỏ ốc biển">
     <meta property="og:description" content="Liên hệ hotline công ty 0936.095.515, email: support@samryvn.com, Cập nhật những thông tin mới nhất liên quan đến doanh nghiệp">
@@ -46,10 +47,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
     <meta name="twitter:description" content="Liên hệ hotline công ty 0936.095.515, email: support@samryvn.com, Cập nhật những thông tin mới nhất liên quan đến doanh nghiệp">
     <meta name="twitter:image" content="./assets/img/samryshell-logo.jpg">
     <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">
-    <title>Trang chủ || Công ty TNHH sản xuất thương mại Samry|| sản xuất nút áo, phôi nút và các loại trang sức thì vỏ ốc biển </title>
-
-    <?php require_once('main/head.php'); ?>
-
+    <link rel="amphtml" href="<?php echo $current_url_PAGE; ?>" />
     <!-- START SEO JSON -->
     <script type="application/ld+json">
         {
@@ -66,6 +64,10 @@ $current_cua_hang_PAGE = 'cua-hang.html';
         }
     </script>
     <!-- END SEO JSON -->
+
+    <?php require_once('main/head.php'); ?>
+
+
 
 </head>
 
@@ -213,13 +215,13 @@ $current_cua_hang_PAGE = 'cua-hang.html';
 
                                             <div class="single-product-item text-center">
                                                 <figure class="product-thumb">
-                                                    <a href="san-pham/<?php echo $showProduct_slide['id'].'/'.$showProduct_slide['slug'].'.html'; ?>"><img src="<?php echo 'admin-page' . mb_substr($showProduct_slide['image'], 2); ?>" alt="Products" class="img-fluid"></a>
+                                                    <a href="san-pham/<?php echo $showProduct_slide['id'] . '/' . $showProduct_slide['slug'] . '.html'; ?>"><img src="<?php echo 'admin-page' . mb_substr($showProduct_slide['image'], 2); ?>" alt="Products" class="img-fluid"></a>
                                                 </figure>
 
                                                 <div class="product-details">
-                                                    <h2><a href="san-pham/<?php echo $showProduct_slide['id'].'/'.$showProduct_slide['slug'].'.html'; ?>"><?php echo $showProduct_slide['name'] ?></a></h2>
+                                                    <h2><a href="san-pham/<?php echo $showProduct_slide['id'] . '/' . $showProduct_slide['slug'] . '.html'; ?>"><?php echo $showProduct_slide['name'] ?></a></h2>
                                                     <span class="price">$<?php echo $showProduct_slide['price'] ?></span>
-                                                    <a href="san-pham/<?php echo $showProduct_slide['id'].'/'.$showProduct_slide['slug'].'.html'; ?>" class="btn btn-add-to-cart">Thêm vào giỏ</a>
+                                                    <a href="san-pham/<?php echo $showProduct_slide['id'] . '/' . $showProduct_slide['slug'] . '.html'; ?>" class="btn btn-add-to-cart">Thêm vào giỏ</a>
                                                 </div>
 
                                                 <div class="product-meta">
@@ -246,11 +248,11 @@ $current_cua_hang_PAGE = 'cua-hang.html';
 
                                             <div class="single-product-item text-center">
                                                 <figure class="product-thumb">
-                                                    <a href="san-pham/<?php echo $showProduct_slide_2['id'].'/'.$showProduct_slide_2['slug'].'.html'; ?>"><img src="<?php echo 'admin-page' . mb_substr($showProduct_slide_2['image'], 2); ?>" alt="Products" class="img-fluid"></a>
+                                                    <a href="san-pham/<?php echo $showProduct_slide_2['id'] . '/' . $showProduct_slide_2['slug'] . '.html'; ?>"><img src="<?php echo 'admin-page' . mb_substr($showProduct_slide_2['image'], 2); ?>" alt="Products" class="img-fluid"></a>
                                                 </figure>
 
                                                 <div class="product-details">
-                                                    <h2><a href="san-pham/<?php echo $showProduct_slide_2['id'].'/'.$showProduct_slide_2['slug'].'.html'; ?>"><?php echo $showProduct_slide_2['name'] ?></a></h2>
+                                                    <h2><a href="san-pham/<?php echo $showProduct_slide_2['id'] . '/' . $showProduct_slide_2['slug'] . '.html'; ?>"><?php echo $showProduct_slide_2['name'] ?></a></h2>
                                                     <div class="rating">
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
@@ -259,7 +261,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                                                         <i class="fa fa-star-o"></i>
                                                     </div>
                                                     <span class="price">$<?php echo $showProduct_slide_2['price'] ?></span>
-                                                    <a href="san-pham/<?php echo $showProduct_slide_2['id'].'/'.$showProduct_slide_2['slug'].'.html'; ?>" class="btn btn-add-to-cart">+ Add to Cart</a>
+                                                    <a href="san-pham/<?php echo $showProduct_slide_2['id'] . '/' . $showProduct_slide_2['slug'] . '.html'; ?>" class="btn btn-add-to-cart">+ Add to Cart</a>
                                                     <span class="product-bedge">New</span>
                                                 </div>
 
@@ -286,11 +288,11 @@ $current_cua_hang_PAGE = 'cua-hang.html';
 
                                             <div class="single-product-item text-center">
                                                 <figure class="product-thumb">
-                                                    <a href="san-pham/<?php echo $showProduct_slide_3['id'].'/'.$showProduct_slide_3['slug'].'.html'; ?>"><img src="<?php echo 'admin-page' . mb_substr($showProduct_slide_3['image'], 2); ?>" alt="Products" class="img-fluid"></a>
+                                                    <a href="san-pham/<?php echo $showProduct_slide_3['id'] . '/' . $showProduct_slide_3['slug'] . '.html'; ?>"><img src="<?php echo 'admin-page' . mb_substr($showProduct_slide_3['image'], 2); ?>" alt="Products" class="img-fluid"></a>
                                                 </figure>
 
                                                 <div class="product-details">
-                                                    <h2><a href="san-pham/<?php echo $showProduct_slide_3['id'].'/'.$showProduct_slide_3['slug'].'.html'; ?>"><?php echo $showProduct_slide_3['name'] ?></a></h2>
+                                                    <h2><a href="san-pham/<?php echo $showProduct_slide_3['id'] . '/' . $showProduct_slide_3['slug'] . '.html'; ?>"><?php echo $showProduct_slide_3['name'] ?></a></h2>
                                                     <div class="rating">
                                                         <i class="fa fa-star"></i>
                                                         <i class="fa fa-star"></i>
@@ -299,7 +301,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                                                         <i class="fa fa-star-o"></i>
                                                     </div>
                                                     <span class="price">$<?php echo $showProduct_slide_3['price'] ?></span>
-                                                    <a href="san-pham/<?php echo $showProduct_slide_3['id'].'/'.$showProduct_slide_3['slug'].'.html'; ?>" class="btn btn-add-to-cart">+ Add to Cart</a>
+                                                    <a href="san-pham/<?php echo $showProduct_slide_3['id'] . '/' . $showProduct_slide_3['slug'] . '.html'; ?>" class="btn btn-add-to-cart">+ Add to Cart</a>
                                                     <span class="product-bedge sale">Sale</span>
                                                 </div>
 
@@ -461,15 +463,15 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                             <?php foreach ($products as $product) : ?>
                                 <div class="single-product-item text-center">
                                     <figure class="product-thumb">
-                                        <a href="san-pham/<?php echo $product['id'].'/'.$product['slug'].'.html'; ?>"><img src="<?php
-                                                                                                                        $strfirt = './admin-page';
-                                                                                                                        echo  $strfirt . mb_substr($product['image'], 2); ?>" alt="Products" class="img-fluid"></a>
+                                        <a href="san-pham/<?php echo $product['id'] . '/' . $product['slug'] . '.html'; ?>"><img src="<?php
+                                                                                                                                $strfirt = './admin-page';
+                                                                                                                                echo  $strfirt . mb_substr($product['image'], 2); ?>" alt="Products" class="img-fluid"></a>
                                     </figure>
 
                                     <div class="product-details">
-                                        <h2><a href="san-pham/<?php echo $product['id'].'/'.$product['slug'].'.html'; ?>"><?php echo $product['name']; ?></a></h2>
+                                        <h2><a href="san-pham/<?php echo $product['id'] . '/' . $product['slug'] . '.html'; ?>"><?php echo $product['name']; ?></a></h2>
                                         <span class="price"><?php echo $product['price']; ?></span>
-                                        <a href="san-pham/<?php echo $product['id'].'/'.$product['slug'].'.html'; ?>" class="btn btn-add-to-cart">+ Add to Cart</a>
+                                        <a href="san-pham/<?php echo $product['id'] . '/' . $product['slug'] . '.html'; ?>" class="btn btn-add-to-cart">+ Add to Cart</a>
                                         <span class="<?php
                                                         if ($product['type_product'] == 'Other') {
                                                             echo '';
