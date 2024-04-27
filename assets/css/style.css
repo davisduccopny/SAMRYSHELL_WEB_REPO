@@ -119,7 +119,7 @@ button:focus, button:active, button.btn:focus, button.btn:active {
 }
 
 .p-9 {
-    padding: 90px 0;
+    padding: 45px 0;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 575px), only screen and (min-width: 576px) and (max-width: 767px) {
