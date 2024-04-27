@@ -131,7 +131,7 @@ if (isset($_GET['blog_id'])) :
                 width: 1140px !important;
             }
             .post-content img {
-                width: auto !important;
+                max-width: 1140px !important;
                 
             }
 
