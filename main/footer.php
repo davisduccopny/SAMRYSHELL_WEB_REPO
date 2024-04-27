@@ -103,21 +103,23 @@
                                         </ul>
                                     </div>
                                     <div class="col-lg-4 col-md-6">
-                                        <p class="text-white-colorsumtime">Liên hệ chúng tôi</p>
-                                        <img src="assets/img/Logo-thong-bao-mau-xanh.png" alt="/Logo" style="width: 55%;height:55%;">
+                                        <div style="display: inline-flex;">
+                                            <p class="text-white-colorsumtime">Liên hệ chúng tôi</p>
+                                            <img src="assets/img/Logo-thong-bao-mau-xanh.png" alt="/Logo" style="width: 55%;height:55%;">
+                                        </div>
                                         <form action="lien-he.html">
                                             <div class="input-group mb-3">
                                                 <input class="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
                                                 <button class="btn btn-primary" id="button-addon2" type="submit"><i class="fa fa-paper-plane"></i></button>
                                             </div>
                                         </form>
-                                        
+
                                     </div>
                                 </div>
                             </div>
                             <div style="display:inline-flex;">
-                            <a href="#" style="margin-top: 10%;"><img src="assets/img/payment.png" alt="Payment Method" /></a>
-                            
+                                <a href="#" style="margin-top: 10%;"><img src="assets/img/payment.png" alt="Payment Method" /></a>
+
                             </div>
                         </div>
                     </div>
