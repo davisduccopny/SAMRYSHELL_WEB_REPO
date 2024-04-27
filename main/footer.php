@@ -77,7 +77,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="follow-content-wrap">
-                            <a href="trang-chu.html" class="logo"><img src="assets/img/samryshell-logo-black.png" style="width: 88px;height:auto;" alt="logo" /></a>
+                            <a href="trang-chu.html" class="logo"><img src="assets/img/samryshell-logo-black.png" style="height: 55px;" alt="logo" /></a>
                             <p>CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI SAM RY</p>
 
                             <div class="container py-4" style="text-transform: uppercase;font-size:x-small;text-align:left;padding-bottom:0 !important;">
