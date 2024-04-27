@@ -78,7 +78,7 @@
                     <div class="col-lg-12 text-center">
                         <div class="follow-content-wrap">
                             <a href="trang-chu.html" class="logo"><img src="assets/img/samryshell-logo-black.png" style="width: 88px;height:auto;" alt="logo" /></a>
-                            <p>CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI SAMRY</p>
+                            <p>CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI SAM RY</p>
 
                             <div class="container py-4" style="text-transform: uppercase;font-size:x-small;text-align:left;">
                                 <div class="row gy-4 gx-5">
@@ -110,12 +110,14 @@
                                                 <button class="btn btn-primary" id="button-addon2" type="submit"><i class="fa fa-paper-plane"></i></button>
                                             </div>
                                         </form>
-                                        <img src="assets/img/Logo-thong-bao-mau-xanh.png" alt="/Logo" style="width: 55%;height:55%;">
+                                        
                                     </div>
                                 </div>
                             </div>
+                            <div style="display:inline-flex;">
                             <a href="#" style="margin-top: 10%;"><img src="assets/img/payment.png" alt="Payment Method" /></a>
-
+                            <img src="assets/img/Logo-thong-bao-mau-xanh.png" alt="/Logo" style="width: 55%;height:55%;">
+                            </div>
                         </div>
                     </div>
                 </div>
