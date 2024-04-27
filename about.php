@@ -125,8 +125,8 @@ if (isset($_GET['blog_id'])) :
             }
 
             .post-content p,
-            .post-content blockquote,
-            .post-content img {
+            .post-content blockquote
+             {
                 margin-bottom: 25px;
                 width: 1140px !important;
             }
