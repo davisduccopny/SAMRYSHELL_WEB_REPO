@@ -12,7 +12,7 @@ $emailmodel = new EmailModal($conn);
 $getinfo_email = $emailmodel->get_email_settings();
 $toName = 'Khách hàng';
 // $filepath = realpath(__DIR__.'/../../admin-page/view/assets/template/email_forgot/index.php');
-$content = $_SESSION['email_customer'].' vừa tạo một đơn hàng mới! <br>'.
+$content = $_SESSION['email_customer'].' vừa tạo một liên hệ mới! <br>'.
             '<a href="'._WEB_HOST.'admin-page/view/'.'" style="color:red;">Xem chi tiết</a>';
 
 function sendmail($host, $port, $username, $password, $subject, $content, $fromEmail, $fromName, $toEmail, $toName)
