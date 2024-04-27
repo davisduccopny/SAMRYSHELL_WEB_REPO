@@ -79,7 +79,7 @@ $current_file_PAGE = 'bai-viet.html';
     <meta name="twitter:image" content="./assets/img/samryshell-logo.jpg">
     
     <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">
-    <link rel="amphtml" href="<?php echo $current_url_PAGE; ?>" />
+  
     <!-- START SEO JSON -->
     <script type="application/ld+json">
         {

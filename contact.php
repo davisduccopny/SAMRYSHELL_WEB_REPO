@@ -44,7 +44,7 @@ $current_url_PAGE = $schema_URL . $host_URL . $path_URL;
     <meta name="twitter:description" content="Liên hệ hotline công ty 0936.095.515, email: support@samryvn.com, Cập nhật những thông tin mới nhất liên quan đến doanh nghiệp">
     <meta name="twitter:image" content="./assets/img/samryshell-logo.jpg">
     <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">
-    <link rel="amphtml" href="<?php echo $current_url_PAGE; ?>" />
+    
         <!-- START SEO JSON -->
         <script type="application/ld+json">
         {

@@ -59,7 +59,7 @@ if (isset($_GET['blog_id'])) :
         <meta name="twitter:description" content="<?php echo $getBlog['description']; ?>">
         <meta name="twitter:image" content="<?php echo $getBlog['image']; ?>">
         <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">
-        <link rel="amphtml" href="<?php echo $current_url_PAGE; ?>" />
+       
         <!-- START SEO JSON -->
         <script type="application/ld+json">
             [{

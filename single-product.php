@@ -52,7 +52,7 @@ $current_file_PAGE = 'cua-hang.html';
     <meta name="twitter:description" content="<?php echo $productInfo['short_description']; ?>">
     <meta name="twitter:image" content="<?php echo _WEB_HOST . '/admin-page' . mb_substr($productInfo['images'][0], 2); ?>">
     <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">
-    <link rel="amphtml" href="<?php echo $current_url_PAGE; ?>" />
+   
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
