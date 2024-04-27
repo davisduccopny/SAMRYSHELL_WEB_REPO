@@ -130,6 +130,10 @@ if (isset($_GET['blog_id'])) :
                 margin-bottom: 25px;
                 width: 1140px !important;
             }
+            .post-content table {
+                margin-bottom: 25px;
+                width: 1140px !important;
+            }
 
             .single-blog-content-wrap {
                 width: 1140px !important;
