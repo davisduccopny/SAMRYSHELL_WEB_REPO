@@ -125,14 +125,10 @@ if (isset($_GET['blog_id'])) :
             }
 
             .post-content p,
-            .post-content blockquote
-             {
+            .post-content blockquote,
+            .post-content img {
                 margin-bottom: 25px;
                 width: 1140px !important;
-            }
-            .post-content img {
-                max-width: 1140px !important;
-                
             }
 
             .single-blog-content-wrap {
