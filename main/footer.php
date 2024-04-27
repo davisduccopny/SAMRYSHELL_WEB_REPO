@@ -80,7 +80,7 @@
                             <a href="trang-chu.html" class="logo"><img src="assets/img/samryshell-logo-black.png" style="width: 88px;height:auto;" alt="logo" /></a>
                             <p>CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI SAM RY</p>
 
-                            <div class="container py-4" style="text-transform: uppercase;font-size:x-small;text-align:left;">
+                            <div class="container py-4" style="text-transform: uppercase;font-size:x-small;text-align:left;padding-bottom:0 !important;">
                                 <div class="row gy-4 gx-5">
                                     <div class="col-lg-4 col-md-6">
                                         <p class=" text-white-colorsumtime text-left">Samry Shell là điểm đến hàng đầu dành cho những ai say mê vẻ đẹp tự nhiên và sự khéo léo sáng tạo từ vỏ sò. Hãy cùng chúng tôi khám phá thế giới độc đáo của vẻ đẹp đại dương và sức sáng tạo vô biên tại Samry Shell.</p>
