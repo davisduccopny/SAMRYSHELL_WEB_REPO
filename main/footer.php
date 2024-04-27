@@ -115,7 +115,7 @@
                                 </div>
                             </div>
                             <div style="display:inline-flex;justify-content:center;">
-                            <a href="#" style="margin-top: 10%;"><img src="assets/img/payment.png" alt="Payment Method" /></a>
+                            <a href="#" style="margin-top: 6%;"><img src="assets/img/payment.png" alt="Payment Method" /></a>
                             <img src="assets/img/Logo-thong-bao-mau-xanh.png" alt="/Logo" style="width: 30%">
                             </div>
                         </div>
