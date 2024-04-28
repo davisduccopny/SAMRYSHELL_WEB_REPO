@@ -20,7 +20,7 @@
             $addcategoryproduct = $Blog_model->insertBlog_general($name_blog,$description_blog,$content_blog,$created_by_blog,$type_general_blog,$image_blog,$image_blog_tmp);
             if ($addcategoryproduct) {
                 echo "<script>alert('Thêm thành công.');</script>";
-                header("Location: bloglist.php");
+                header("Location: publicinfo.php");
             } else {
                 echo "<script>alert('Thêm thất bại.');</script>";
             }
