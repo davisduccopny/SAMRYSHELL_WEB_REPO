@@ -47,7 +47,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
     <meta name="twitter:description" content="Liên hệ hotline công ty 0936.095.515, email: support@samryvn.com, Cập nhật những thông tin mới nhất liên quan đến doanh nghiệp">
     <meta name="twitter:image" content="./assets/img/samryshell-logo.jpg">
     <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">
-    
+
     <!-- START SEO JSON -->
     <script type="application/ld+json">
         {
@@ -178,8 +178,9 @@ $current_cua_hang_PAGE = 'cua-hang.html';
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <!-- Section Title Start -->
-                    <div class="section-title_add"></div>
+
                     <div class="section-title">
+                        <div class="section-title_add"></div>
                         <h2>BỘ SƯU TẬP SẢN PHẨM MỚI</h2>
                     </div>
                     <!-- Section Title End -->
@@ -449,8 +450,9 @@ $current_cua_hang_PAGE = 'cua-hang.html';
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <!-- Section Title Start -->
-                    <div class="section-title_add"></div>
+
                     <div class="section-title">
+                        <div class="section-title_add"></div>
                         <h2>SẢN PHẨM MỚI</h2>
                     </div>
                     <!-- Section Title End -->
@@ -466,8 +468,8 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                                 <div class="single-product-item text-center">
                                     <figure class="product-thumb">
                                         <a href="san-pham/<?php echo $product['id'] . '/' . $product['slug'] . '.html'; ?>"><img src="<?php
-                                                                                                                                $strfirt = './admin-page';
-                                                                                                                                echo  $strfirt . mb_substr($product['image'], 2); ?>" alt="Products" class="img-fluid"></a>
+                                                                                                                                        $strfirt = './admin-page';
+                                                                                                                                        echo  $strfirt . mb_substr($product['image'], 2); ?>" alt="Products" class="img-fluid"></a>
                                     </figure>
 
                                     <div class="product-details">
