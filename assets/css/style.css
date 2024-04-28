@@ -177,7 +177,7 @@ button:focus, button:active, button.btn:focus, button.btn:active {
     margin-bottom: 94px;
 }
 
-.section-title:after {
+.section-title h2::before {
     background-image: url(../img/title-line.png);
     background-repeat: no-repeat;
     background-position: center bottom;
