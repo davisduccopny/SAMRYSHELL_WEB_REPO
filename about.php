@@ -44,7 +44,7 @@ if (isset($_GET['blog_id'])) :
         <meta name="twitter:description" content="<?php echo  $showBlog['description']; ?>">
         <meta name="twitter:image" content="./assets/img/samryshell-logo.jpg">
         <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">
-     
+
         <!-- START SEO JSON -->
         <script type="application/ld+json">
             {
@@ -100,39 +100,35 @@ if (isset($_GET['blog_id'])) :
         </div>
         <!--== Page Title Area End ==-->
         <style>
-            .post-content p span,
-            .post-content h1 span,
-            .post-content h2 span,
-            .post-content h3 span,
-            .post-content h4 span,
-            .post-content h5 span,
-            .post-content h6 span,
-            .post-content blockquote {
+            .post-content-ver2 p span,
+            .post-content-ver2 h1 span,
+            .post-content-ver2 h2 span,
+            .post-content-ver2 h3 span,
+            .post-content-ver2 h4 span,
+            .post-content-ver2 h5 span,
+            .post-content-ver2 h6 span,
+            .post-content-ver2 blockquote {
                 font-family: "TimesNewRoman" !important;
                 font-size: 18px !important;
             }
 
-            .post-content p,
-            .post-content h1,
-            .post-content h2,
-            .post-content h3,
-            .post-content h4,
-            .post-content h5,
-            .post-content h6,
-            .post-content blockquote {
+            .post-content-ver2 p,
+            .post-content-ver2 h1,
+            .post-content-ver2 h2,
+            .post-content-ver2 h3,
+            .post-content-ver2 h4,
+            .post-content-ver2 h5,
+            .post-content-ver2 h6,
+            .post-content-ver2 blockquote {
                 font-family: "TimesNewRoman" !important;
                 font-size: 18px !important;
             }
 
-            .post-content p,
-            .post-content blockquote,
-            .post-content img {
+            .post-content-ver2 p,
+            .post-content-ver2 blockquote,
+            .post-content-ver2 img {
                 margin-bottom: 25px;
-                width: 1140px !important;
-            }
-            .post-content table {
-                margin-bottom: 25px;
-                width: 1140px !important;
+
             }
 
             .single-blog-content-wrap {
@@ -145,9 +141,9 @@ if (isset($_GET['blog_id'])) :
 
             @media (max-width: 767px) {
 
-                .post-content p,
-                .post-content blockquote,
-                .post-content img {
+                .post-content-ver2 p,
+                .post-content-ver2 blockquote,
+                .post-content-ver2 img {
                     width: 100% !important;
                     /* Sử dụng 100% chiều rộng cho thiết bị di động */
                 }
@@ -164,9 +160,9 @@ if (isset($_GET['blog_id'])) :
             /* Quy tắc cho các thiết bị có độ rộng màn hình từ 768px đến 1024px (máy tính bảng) */
             @media (min-width: 768px) and (max-width: 1024px) {
 
-                .post-content p,
-                .post-content blockquote,
-                .post-content img {
+                .post-content-ver2 p,
+                .post-content-ver2 blockquote,
+                .post-content-ver2 img {
                     width: 100% !important;
                     /* Sử dụng 100% chiều rộng cho máy tính bảng */
                 }
@@ -200,7 +196,7 @@ if (isset($_GET['blog_id'])) :
                                     </div>
                                 </div>
                             </div>
-                            <div class="post-content">
+                            <div class="post-content-ver2">
                                 <?php echo $showBlog['content'];  ?>
                             </div>
 
