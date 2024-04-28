@@ -144,7 +144,7 @@ $current_file_PAGE = 'bai-viet.html';
                                         </figcaption>
                                     </figure>
 
-                                    <div class="blog-details" style="text-transform:uppercase;">
+                                    <div class="blog-details" style="text-transform:capitalize;">
                                         <h3><a href="bai-viet/<?php echo $Blogitem['id'] ?>/<?php echo $Blogitem['slug'] . '.html' ?>" style="text-transform:uppercase;"><?php echo $Blogitem['title'];  ?></a></h3>
                                         <span class="post-date">
                                             <?php
