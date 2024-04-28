@@ -4765,7 +4765,7 @@ fieldset legend {
 
 .single-blog-wrap .blog-details p {
     font-family:"Montserrat";
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 /*== Blog Page Content End ==*/
