@@ -1296,7 +1296,7 @@ address strong, address b {
     font-family:"Montserrat";
     /* font-style: italic; */
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
     line-height: 30px;
     padding: 0;
 }
