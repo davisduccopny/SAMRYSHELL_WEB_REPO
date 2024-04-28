@@ -171,7 +171,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                             <a class="me-3" href="editpublicinfo.php?blog_id=<?php echo $blog['id']; ?>">
                                                 <img src="assets/img/icons/edit.svg" alt="img">
                                             </a>
-                                            <a  class="confirmdelete_blog me-3" href="javascript:void(0);" data-blog-id="<?php echo $blog['id']; ?>">
+                                            <a <?php echo $role_show_element; ?>  class="confirmdelete_blog me-3" href="javascript:void(0);" data-blog-id="<?php echo $blog['id']; ?>">
                                                 <img src="assets/img/icons/delete.svg" alt="img">
                                             </a>
                                             <!-- <input type="hidden" value="<?=$blog['id']?>" id="iddelete_blog"> -->
