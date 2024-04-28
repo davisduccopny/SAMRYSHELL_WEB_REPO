@@ -96,7 +96,7 @@
                                     </div>
                                     <div class="col-lg-2 col-md-6" style="white-space: nowrap;">
                                         <ul class="list-unstyled text-white-colorsumtime">
-                                            <li><a href="thong-tin-cong-ty/11/huong-phat-trien.html" class="text-white-colorsumtime">Hướng phát triển</a></li>
+                                            <li><a href="thong-tin-cong-ty/12/huong-phat-trien.html" class="text-white-colorsumtime">Hướng phát triển</a></li>
                                             <li><a href="thong-tin-cong-ty/15/chinh-sach-ban-hang.html" class="text-white-colorsumtime">Chính sách bán hàng</a></li>
                                             <li><a href="thong-tin-cong-ty/16/chinh-sach-van-chuyen.html" class="text-white-colorsumtime">Chính sách vận chuyển</a></li>
                                             <li><a href="lien-he.html" class="text-white-colorsumtime">Liên Hệ</a></li>
