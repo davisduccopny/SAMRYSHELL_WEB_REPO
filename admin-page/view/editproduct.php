@@ -146,7 +146,7 @@ else {
                                 <div class="form-group">
                                     <label>Loại sản phẩm</label>
                                     <select type="text" class="select" name="type_product" id="type_product">
-                                        <option value="" <?php echo ($productInfo['type_product'] === 'Other') ? 'selected' : ''; ?>>Choose Type Product</option>
+                                        <option value="Other" <?php echo ($productInfo['type_product'] === 'Other') ? 'selected' : ''; ?>>Choose Type Product</option>
                                         <option value="New" <?php echo ($productInfo['type_product'] === 'New') ? 'selected' : ''; ?>>New</option>
                                         <option value="Sale" <?php echo ($productInfo['type_product'] === 'Sale') ? 'selected' : ''; ?>>Sale</option>
                                     </select>
