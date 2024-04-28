@@ -92,7 +92,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                             <div class="banner-caption text-center text-lg-center">
                                 <h4>SeaShells Store</h4>
                                 <h2>Khám phá vẻ đẹp tự nhiên</h2>
-                                <p>Khám phá thế giới đầy màu sắc của vỏ sò tự nhiên và khám phá vẻ đẹp độc đáo mà mỗi chiếc vỏ mang lại.</p>
+                                <!-- <p>Khám phá thế giới đầy màu sắc của vỏ sò tự nhiên và khám phá vẻ đẹp độc đáo mà mỗi chiếc vỏ mang lại.</p> -->
                                 <a href="<?php echo $current_cua_hang_PAGE; ?>" class="btn-long-arrow">Shop Now</a>
                             </div>
                         </div>
@@ -103,7 +103,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                             <div class="banner-caption text-center text-lg-left">
                                 <h4>Samry Shell <?php echo date('Y'); ?></h4>
                                 <h2>Sáng tạo từ biển cả</h2>
-                                <p>Chúng tôi mang đến cho bạn những sản phẩm độc đáo được làm từ vỏ sò, tượng trưng cho sự sáng tạo và tinh thần của đại dương.</p>
+                                <!-- <p>Chúng tôi mang đến cho bạn những sản phẩm độc đáo được làm từ vỏ sò, tượng trưng cho sự sáng tạo và tinh thần của đại dương.</p> -->
                                 <a href="<?php echo $current_cua_hang_PAGE; ?>" class="btn-long-arrow">Shop Now</a>
                             </div>
                         </div>
@@ -111,7 +111,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                             <div class="banner-caption text-center text-lg-left">
                                 <h4>Samry Shell <?php echo date('Y'); ?></h4>
                                 <h2>Xây dựng cuộc sống bền vững</h2>
-                                <p>Bằng cách tái chế vỏ sò tự nhiên, chúng tôi không chỉ tôn vinh thiên nhiên mà còn hướng tới một lối sống bền vững hơn.</p>
+                                <!-- <p>Bằng cách tái chế vỏ sò tự nhiên, chúng tôi không chỉ tôn vinh thiên nhiên mà còn hướng tới một lối sống bền vững hơn.</p> -->
                                 <a href="<?php echo $current_cua_hang_PAGE; ?>" class="btn-long-arrow">Shop Now</a>
                             </div>
                         </div>
@@ -119,7 +119,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                             <div class="banner-caption text-center text-lg-left">
                                 <h4>SeaShells Store <?php echo date('Y'); ?></h4>
                                 <h2>Đắm chìm trong sự bao la của biển</h2>
-                                <p>Sản phẩm từ vỏ sò mang đến không gian sống lãng mạn, thân mật gần gũi hơn với đại dương, tạo nên môi trường sống sang trọng.</p>
+                                <!-- <p>Sản phẩm từ vỏ sò mang đến không gian sống lãng mạn, thân mật gần gũi hơn với đại dương, tạo nên môi trường sống sang trọng.</p> -->
                                 <a href="<?php echo $current_cua_hang_PAGE; ?>" class="btn-long-arrow">Shop Now</a>
                             </div>
                         </div>
@@ -127,7 +127,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                             <div class="banner-caption text-center text-lg-left">
                                 <h4>Samry Shell <?php echo date('Y'); ?></h4>
                                 <h2>Sang trọng trong từng chi tiết</h2>
-                                <p>Trải nghiệm sự tinh tế và độc đáo của từng chiếc cúc áo và món trang sức được làm hoàn toàn từ vỏ sò tự nhiên.</p>
+                                <!-- <p>Trải nghiệm sự tinh tế và độc đáo của từng chiếc cúc áo và món trang sức được làm hoàn toàn từ vỏ sò tự nhiên.</p> -->
                                 <a href="<?php echo $current_cua_hang_PAGE; ?>" class="btn-long-arrow">Shop Now</a>
                             </div>
                         </div>
