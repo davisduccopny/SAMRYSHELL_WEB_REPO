@@ -49,6 +49,30 @@ class BlogModel {
         // Thực hiện truy vấn
         return $stmt->execute();
     }
+    public function insertBlog_general($name, $description, $content, $created_by,$type_public_info, $image, $imagetmp) {
+        // slug
+        $slug = $this->createSlug($name);
+        // slug
+        $location = "../upload/blog" ;
+        $imageinsert = $location . $image;
+    
+        $target_dir = "../upload/blog" ;
+         if (!is_dir($target_dir)) {
+            mkdir($target_dir, 0777, true);
+        }
+        $finalImage = $target_dir . $image;
+    
+        move_uploaded_file($imagetmp, $finalImage);
+        // Tạo truy vấn INSERT
+        
+        $query = "INSERT INTO blog (title, description,content, created_by, type,image, slug) VALUES (?, ?, ?, ?, ?, ?, ?)";
+        $stmt = $this->conn->prepare($query);
+        $stmt->bind_param("ssssiss", $name, $description, $content,$created_by,$type_public_info, $imageinsert,$slug);
+
+        // Thực hiện truy vấn
+        return $stmt->execute();
+    }
+
 
     public function updateBlog($blog_id,$name, $description, $content, $created_by,$category_id, $image, $imagetmp) {
         $category_link = $this->createSlug($name);
