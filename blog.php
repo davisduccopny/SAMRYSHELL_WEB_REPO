@@ -159,7 +159,7 @@ $current_file_PAGE = 'bai-viet.html';
                                             ?>
                                         </span>
                                         <p><?php echo $Blogitem['description'];  ?></p>
-                                        <a href="bai-viet/<?php echo $Blogitem['id'] ?>/<?php echo $Blogitem['slug'] . '.html' ?>" class="btn-long-arrow">Read More</a>
+                                        <a href="bai-viet/<?php echo $Blogitem['id'] ?>/<?php echo $Blogitem['slug'] . '.html' ?>" class="btn-long-arrow">Đọc thêm</a>
                                     </div>
                                 </div>
                             <?php endforeach; ?>
