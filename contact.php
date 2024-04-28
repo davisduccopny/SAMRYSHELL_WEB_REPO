@@ -108,7 +108,7 @@ $current_url_PAGE = $schema_URL . $host_URL . $path_URL;
                                     <span class="method-icon"><i class="fa fa-map-marker"></i></span>
                                     <div class="method-info">
                                         <h3>ĐỊA CHỈ</h3>
-                                        <p><?php echo $showGenneral['address'] ?> <br> My Tho City, Tien Giang, Viet Nam</p>
+                                        <p><?php echo $showGenneral['address'] ?></p>
                                     </div>
                                 </div>
                             </div>

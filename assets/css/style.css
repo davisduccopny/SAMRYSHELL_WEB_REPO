@@ -178,7 +178,7 @@ button:focus, button:active, button.btn:focus, button.btn:active {
 }
 
 .section-title_add {
-    background-image: url(../img/title-line.png);
+    /* background-image: url(); */
     background-repeat: no-repeat;
     background-position: center bottom;
     content: '';

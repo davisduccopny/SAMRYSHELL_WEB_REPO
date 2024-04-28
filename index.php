@@ -157,11 +157,11 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                         <h2>Về chúng tôi</h2>
                         <h3>TẦM NHÌN CỦA CHÚNG TÔI</h3>
                         <div class="about-text text_transform_edit" style="font-size: 1.3rem;">
-                            <p>SamryShell là công ty tiên phong trong việc sáng tạo và sản xuất các sản phẩm làm từ vỏ sò tự nhiên. Với sứ mệnh khám phá và tôn vinh vẻ đẹp của đại dương, SamryShell không chỉ mang đến những sản phẩm độc đáo mà còn góp phần bảo vệ môi trường bằng cách tái chế và sử dụng tài nguyên sinh học bền vững. Nổi tiếng về chất lượng và sự đổi mới, SamryShell đã tạo dựng được vị thế của mình trong ngành và thu hút được sự chú ý trên toàn thế giới.</p>
+                            <p>SamryShell là một trong những công ty tiên phong trong việc sáng tạo và sản xuất các sản phẩm làm từ vỏ sò tự nhiên. Với sứ mệnh khám phá và tôn vinh vẻ đẹp của đại dương, SamryShell không chỉ mang đến những sản phẩm độc đáo mà còn góp phần bảo vệ môi trường bằng cách tái chế và sử dụng tài nguyên sinh học bền vững. Nổi tiếng về chất lượng và sự đổi mới, SamryShell đã tạo dựng được vị thế của mình trong ngành và thu hút được sự chú ý trên toàn thế giới.</p>
 
                             <a href="thong-tin-cong-ty/12/gioi-thieu-cong-ty.html" class="btn btn-long-arrow">Learn More</a>
 
-
+                    
                             <h4 class="vertical-text">WHO WE ARE?</h4>
                         </div>
                     </div>
