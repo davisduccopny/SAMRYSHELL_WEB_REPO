@@ -63,7 +63,7 @@
                             Thông tin trang web</span> <span class="menu-arrow"></span></a>
                     <ul>
                         <li><a href="publicinfo.php">Danh sách các trang</a></li>
-                        <li <?php echo $role_show_element; ?>><a href="addpublicinfo.php">Add public</a></li>
+                        <li <?php echo $role_show_element; ?>><a href="addpublicinfo.php">Thêm bài viết</a></li>
                     </ul>
                 </li>
                 <li class="submenu" <?php echo $role_show_element; ?>>
