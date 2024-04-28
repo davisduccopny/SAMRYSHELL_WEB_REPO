@@ -177,7 +177,7 @@ button:focus, button:active, button.btn:focus, button.btn:active {
     margin-bottom: 94px;
 }
 
-.section-title h2::before {
+.section-title_add:after {
     background-image: url(../img/title-line.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -1899,7 +1899,7 @@ address strong, address b {
 }
 
 .about-content-wrap h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.5;
     margin-bottom: 17px;
 }

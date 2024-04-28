@@ -178,6 +178,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <!-- Section Title Start -->
+                    <div class="section-title_add"></div>
                     <div class="section-title">
                         <h2>BỘ SƯU TẬP SẢN PHẨM MỚI</h2>
                     </div>
@@ -448,6 +449,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <!-- Section Title Start -->
+                    <div class="section-title_add"></div>
                     <div class="section-title">
                         <h2>SẢN PHẨM MỚI</h2>
                     </div>
