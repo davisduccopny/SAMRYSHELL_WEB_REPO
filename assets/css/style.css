@@ -1265,7 +1265,7 @@ address strong, address b {
     line-height: 1.5;
     font-weight: 700;
     color: #202020;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border-bottom: 1px solid #d2d2d2;
     display: block;
     margin-bottom: 15px;
