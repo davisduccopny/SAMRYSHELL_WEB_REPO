@@ -1208,7 +1208,7 @@ address strong, address b {
     letter-spacing: 0.8px;
     padding: 6px 20px;
     /* text-transform: capitalize; */
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 #mainmenu ul li .dropdown-nav li a:hover {
