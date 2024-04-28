@@ -235,7 +235,7 @@ class BlogModel {
     public function showBlog_publicinfo() {
         $id= $name = $content =$description= $created_by= $image  = $date=$slug = null;
         // Tạo truy vấn SELECT
-        $query = "SELECT b.id, b.title, b.description, b.content,b.image,b.created_by, b.date, b.slug FROM blog b WHERE b.type = 1";
+        $query = "SELECT b.id, b.title, b.description, b.content,b.image,b.created_by, b.date, b.slug FROM blog b WHERE b.type = 1 AND b.id != 12";
         $stmt = $this->conn->prepare($query);
         
         // Thực hiện truy vấn
