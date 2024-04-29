@@ -120,7 +120,7 @@ $current_url_PAGE = $schema_URL . $host_URL . $path_URL;
                                     <span class="method-icon"><i class="fa fa-phone"></i></span>
                                     <div class="method-info">
                                         <h3>SỐ ĐIỆN THOẠI</h3>
-                                        <a href="tel:<?php echo $showGenneral['phone'] ?>"><?php echo $showGenneral['phone'] ?></a>
+                                        <a href="tel:<?php echo $showGenneral['phone'] ?>"><?php echo mb_substr($showGenneral['phone'], 0, 3) . '.' . mb_substr($showGenneral['phone'], 3, 3) . '.' . mb_substr($showGenneral['phone'], 6, 3). '.' . mb_substr($showGenneral['phone'], 9, 3); ?></a>
                                     </div>
                                 </div>
                             </div>
