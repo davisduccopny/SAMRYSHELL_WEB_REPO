@@ -157,7 +157,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                         <h2>Về chúng tôi</h2>
                         <h3>TẦM NHÌN CỦA CHÚNG TÔI</h3>
                         <div class="about-text text_transform_edit" style="font-size: 1.3rem;">
-                            <p>Sam Ry là Công ty sản xuất nút áo và phôi nút áo từ nguyên vật liệu tự nhiên như vỏ sò, vỏ ốc, vỏ dừa. Đã nhiều thập kỷ qua cho đến nay, vỏ sò, vỏ ốc, từ thiên nhiên rất được nhiều người trên thế giới quan tâm và biết đến.Có nguồn gốc tự nhiên với vẻ đẹp thuần túy của chúng, nút áo làm từ vỏ sò, vỏ ốc, được đưa vào ngành thời trang cao cấp như một phong cách nổi trội.</p>
+                            <p>Sam Ry là Công ty sản xuất nút áo và phôi nút áo từ nguyên vật liệu tự nhiên như vỏ sò, vỏ ốc, vỏ dừa. Đã nhiều thập kỷ qua cho đến nay, vỏ sò, vỏ ốc, từ thiên nhiên rất được nhiều người trên thế giới quan tâm và biết đến.Có nguồn gốc tự nhiên với vẻ đẹp thuần túy của chúng, nút áo làm từ vỏ sò, vỏ ốc, được đưa vào ngành thời trang cao cấp như một phong cách nổi trội.Với gần 20 năm học hỏi và làm việc trong ngành sản xuất nút áo từ vỏ sò, vỏ ốc, chúng tôi đã tích lũy được những kinh nghiệm cho mình</p>
 
                             <a href="thong-tin-cong-ty/12/gioi-thieu-cong-ty.html" class="btn btn-long-arrow">Đọc thêm</a>
 
