@@ -157,7 +157,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                         <h2>Về chúng tôi</h2>
                         <h3>TẦM NHÌN CỦA CHÚNG TÔI</h3>
                         <div class="about-text text_transform_edit" style="font-size: 1.3rem;">
-                            <p>Sam Ry là Công ty sản xuất nút áo và phôi nút áo từ nguyên vật liệu tự nhiên như vỏ sò, vỏ ốc, vỏ dừa. Đã nhiều thập kỷ qua cho đến nay, vỏ sò, vỏ ốc, từ thiên nhiên rất được nhiều người trên thế giới quan tâm và biết đến.Có nguồn gốc tự nhiên với vẻ đẹp thuần túy của chúng, nút áo làm từ vỏ sò, vỏ ốc, được đưa vào ngành thời trang cao cấp như một phong cách nổi trội.Với gần 20 năm học hỏi và làm việc trong ngành sản xuất nút áo từ vỏ sò, vỏ ốc, chúng tôi đã tích lũy được những kinh nghiệm cho mình</p>
+                            <p>Sam Ry là Công ty sản xuất nút áo và phôi nút áo từ nguyên vật liệu tự nhiên như vỏ sò, vỏ ốc, vỏ dừa. Từ nhiều thập kỷ nay, vỏ sò, vỏ ốc, từ thiên nhiên rất được nhiều người trên thế giới quan tâm và biết đến. Có nguồn gốc tự nhiên với vẻ đẹp thuần túy của chúng, nút áo làm từ vỏ sò, vỏ ốc, được đưa vào ngành thời trang cao cấp như một phong cách nổi trội.Với gần 20 năm làm việc trong ngành sản xuất nút áo từ vỏ sò, vỏ ốc, chúng tôi đã học hỏi và tích lũy được những kinh nghiệm quý báu cho nghề nghiệp của mình, và tháng 01 năm 2016 chúng tôi đã thành lập Công Ty TNHH Sam Ry.</p>
 
                             <a href="thong-tin-cong-ty/12/gioi-thieu-cong-ty.html" class="btn btn-long-arrow">Đọc thêm</a>
 
@@ -243,7 +243,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                                 <div class="products-wrapper">
                                     <div class="products-carousel owl-carousel">
                                         <!-- Single Product Item -->
-                                        <?php $type_product_2 = 'New';
+                                        <?php $type_product_2 = 'Other';
                                         $showProduct_type_2 = $productModel->showProduct_forTypeProduct($type_product_2, 1, 4); ?>
                                         <?php foreach ($showProduct_type_2 as $showProduct_slide_2) : ?>
 
@@ -283,7 +283,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                             <div class="tab-pane fade" id="onsale" role="tabpanel" aria-labelledby="onsale-tab">
                                 <div class="products-wrapper">
                                     <div class="products-carousel owl-carousel">
-                                        <?php $type_product_3 = 'Sale';
+                                        <?php $type_product_3 = 'Other';
                                         $showProduct_type_3 = $productModel->showProduct_forTypeProduct($type_product_3, 1, 4); ?>
                                         <?php foreach ($showProduct_type_3 as $showProduct_slide_3) : ?>
 
