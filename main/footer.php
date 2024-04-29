@@ -1,5 +1,5 @@
 <section class="call-buton"><a class="cc-calto-action-ripple" href="tel:<?php echo $generalListshow['phone']; ?>"><i class="fa fa-phone"></i><span class="num">
-            <?php echo mb_substr($generalListshow['phone'], 0, 4) . '.' . mb_substr($generalListshow['phone'], 4, 3) . '.' . mb_substr($generalListshow['phone'], 7, 3); ?>
+            <?php echo mb_substr($generalListshow['phone'], 0, 2) . '.' . mb_substr($generalListshow['phone'], 3, 3) . '.' . mb_substr($generalListshow['phone'], 6, 3). '.' . mb_substr($generalListshow['phone'], 9, 3); ?>
         </span>
     </a>
 </section>
