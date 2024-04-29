@@ -264,6 +264,38 @@ class BlogModel {
         // Trả về mảng chứa tất cả các dòng kết quả
         return $results;
     }
+    public function showBlog_publicinfo_subtract() {
+        $id= $name = $content =$description= $created_by= $image  = $date=$slug = null;
+        // Tạo truy vấn SELECT
+        $query = "SELECT b.id, b.title, b.description, b.content,b.image,b.created_by, b.date, b.slug FROM blog b WHERE b.type = 1";
+        $stmt = $this->conn->prepare($query);
+        
+        // Thực hiện truy vấn
+        $stmt->execute();
+        
+        // Ràng buộc kết quả trả về cho các cột
+        $stmt->bind_result($id, $name, $description, $content,$image,$created_by, $date, $slug);
+        
+        // Tạo mảng để lưu trữ tất cả các dòng kết quả
+        $results = [];
+        
+        // Lặp qua các dòng và lấy dữ liệu
+        while ($stmt->fetch()) {
+            $results[] = [
+                'id' => $id,
+                'name' => $name,
+                'description' => $description,
+                'content' => $content,
+                'image' => $image,
+                'created_by' => $created_by,
+                'date'=> $date,
+                'slug' => $slug
+            ];
+        }
+        
+        // Trả về mảng chứa tất cả các dòng kết quả
+        return $results;
+    }
     public function showBlog_foruser($start, $perpage) {
         $id= $name = $content = $category_id =$description= $created_by= $image = $category_name= $date= $slug = null;
         // Tạo truy vấn SELECT

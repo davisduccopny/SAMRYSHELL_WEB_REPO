@@ -2,7 +2,7 @@
 <?php 
 require '../model/blog_model.php';
 $Blog = new BlogModel($conn);
-$Blogs= $Blog->showBlog_publicinfo();
+$Blogs= $Blog->showBlog_publicinfo_subtract();
 
 // XÓA BLOG
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
