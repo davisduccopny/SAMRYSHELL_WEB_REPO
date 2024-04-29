@@ -222,7 +222,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                                                 <div class="product-details">
                                                     <h2><a href="san-pham/<?php echo $showProduct_slide['id'] . '/' . $showProduct_slide['slug'] . '.html'; ?>"><?php echo $showProduct_slide['name'] ?></a></h2>
                                                     <span class="price">$<?php echo $showProduct_slide['price'] ?></span>
-                                                    <a href="san-pham/<?php echo $showProduct_slide['id'] . '/' . $showProduct_slide['slug'] . '.html'; ?>" class="btn btn-add-to-cart">Thêm vào giỏ</a>
+                                                    <a href="san-pham/<?php echo $showProduct_slide['id'] . '/' . $showProduct_slide['slug'] . '.html'; ?>" class="btn btn-add-to-cart">Xem chi tiết</a>
                                                 </div>
 
                                                 <div class="product-meta">

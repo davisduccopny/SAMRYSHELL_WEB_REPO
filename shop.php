@@ -298,7 +298,7 @@ $current_file_PAGE = 'cua-hang.html';
                                                     </div>
                                                     <span class="price">$<?php echo $product['price']; ?></span>
                                                     <p class="products-desc"><?php echo $product['short_description'] . '.html'; ?></p>
-                                                    <a href="<?php echo "san-pham/" . $product['id'] . '/' . $product['slug'] . '.html';  ?>" class="btn btn-add-to-cart">+ Add to Cart</a>
+                                                    <a href="<?php echo "san-pham/" . $product['id'] . '/' . $product['slug'] . '.html';  ?>" class="btn btn-add-to-cart">Xem chi tiết</a>
                                                     <a href="<?php echo "san-pham/" . $product['id'] . '/' . $product['slug'] . '.html'; ?>" class="btn btn-add-to-cart btn-whislist">+
                                                         Wishlist</a>
                                                     <a href="<?php echo "san-pham/" . $product['id'] . '/' . $product['slug'] . '.html';  ?>" class="btn btn-add-to-cart btn-compare">+
