@@ -262,7 +262,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                                                         <i class="fa fa-star-o"></i>
                                                     </div>
                                                     <span class="price">$<?php echo $showProduct_slide_2['price'] ?></span>
-                                                    <a href="san-pham/<?php echo $showProduct_slide_2['id'] . '/' . $showProduct_slide_2['slug'] . '.html'; ?>" class="btn btn-add-to-cart">+ Add to Cart</a>
+                                                    <a href="san-pham/<?php echo $showProduct_slide_2['id'] . '/' . $showProduct_slide_2['slug'] . '.html'; ?>" class="btn btn-add-to-cart">Xem chi tiết</a>
                                                     <span class="product-bedge">New</span>
                                                 </div>
 
@@ -302,7 +302,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                                                         <i class="fa fa-star-o"></i>
                                                     </div>
                                                     <span class="price">$<?php echo $showProduct_slide_3['price'] ?></span>
-                                                    <a href="san-pham/<?php echo $showProduct_slide_3['id'] . '/' . $showProduct_slide_3['slug'] . '.html'; ?>" class="btn btn-add-to-cart">+ Add to Cart</a>
+                                                    <a href="san-pham/<?php echo $showProduct_slide_3['id'] . '/' . $showProduct_slide_3['slug'] . '.html'; ?>" class="btn btn-add-to-cart">Xem chi tiết</a>
                                                     <span class="product-bedge sale">Sale</span>
                                                 </div>
 
@@ -474,7 +474,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                                     <div class="product-details">
                                         <h2><a href="san-pham/<?php echo $product['id'] . '/' . $product['slug'] . '.html'; ?>"><?php echo $product['name']; ?></a></h2>
                                         <span class="price"><?php echo $product['price']; ?></span>
-                                        <a href="san-pham/<?php echo $product['id'] . '/' . $product['slug'] . '.html'; ?>" class="btn btn-add-to-cart">+ Add to Cart</a>
+                                        <a href="san-pham/<?php echo $product['id'] . '/' . $product['slug'] . '.html'; ?>" class="btn btn-add-to-cart">Xem chi tiết</a>
                                         <span class="<?php
                                                         if ($product['type_product'] == 'Other') {
                                                             echo '';
