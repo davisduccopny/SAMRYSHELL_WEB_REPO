@@ -99,8 +99,8 @@ $current_file_PAGE = 'cua-hang.html';
                 <div class="col-12 text-center">
                     <div class="page-title-content">
                         <ul class="breadcrumb">
-                            <li><a href="trang-chu.html">Home</a></li>
-                            <li><a href="<?php echo $current_file_PAGE; ?>">Shop</a></li>
+                            <li><a href="trang-chu.html">TRANG CHỦ</a></li>
+                            <li><a href="<?php echo $current_file_PAGE; ?>">CỬA HÀNG</a></li>
                             <li><a href="<?php echo $current_url_PAGE; ?>" class="active"><?php echo $productInfo['name'] ?></a></li>
                         </ul>
                     </div>
@@ -242,7 +242,7 @@ $current_file_PAGE = 'cua-hang.html';
 
                                     <form method="post" enctype="multipart/form-data" class="product-quantity d-flex align-items-center">
                                         <div class="quantity-field">
-                                            <label for="qty">Qty</label>
+                                            <label for="qty">Số lượng</label>
                                             <input type="number" id="qty" name="quantity_addcart" min="1" max="100" value="1" />
                                             <input type="hidden" name="product_id_addcart_new" value="<?php echo $id; ?>">
                                         </div>
@@ -250,12 +250,12 @@ $current_file_PAGE = 'cua-hang.html';
                                         <button name="login_addcart" type="submit" class="btn btn-add-to-cart">THÊM VÀO GIỎ</button>
                                     </form>
 
-                                    <div class="product-btn-group">
+                                    <!-- <div class="product-btn-group">
                                         <a href="<?php echo $current_url_PAGE; ?>" class="btn btn-add-to-cart btn-whislist">+ Add to
                                             Wishlist</a>
                                         <a href="<?php echo $current_url_PAGE; ?>" class="btn btn-add-to-cart btn-whislist">+ Add to
                                             Compare</a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                             <!-- Product Details End -->
@@ -267,8 +267,8 @@ $current_file_PAGE = 'cua-hang.html';
                                 <div class="product-full-info-reviews">
                                     <!-- Single Product tab Menu -->
                                     <nav class="nav" id="nav-tab">
-                                        <a class="active" id="description-tab" data-toggle="tab" href="#description">Description</a>
-                                        <a id="reviews-tab" data-toggle="tab" href="#reviews">Reviews</a>
+                                        <a class="active" id="description-tab" data-toggle="tab" href="#description">Mô tả</a>
+                                        <!-- <a id="reviews-tab" data-toggle="tab" href="#reviews">Đánh giá</a> -->
                                     </nav>
                                     <!-- Single Product tab Menu -->
 

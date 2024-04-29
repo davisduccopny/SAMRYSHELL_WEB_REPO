@@ -146,10 +146,10 @@ if (isset($_GET['blog_id'])) :
                 <div class="row">
                     <div class="col-12 text-center">
                         <div class="page-title-content">
-                            <h1>Blog Details</h1>
+                            <h1>Chi tiết Bài Viết</h1>
                             <ul class="breadcrumb">
-                                <li><a href="trang-chu.html">Home</a></li>
-                                <li><a href="<?php echo $current_file_PAGE; ?>">Blog</a></li>
+                                <li><a href="trang-chu.html">TRANG CHỦ</a></li>
+                                <li><a href="<?php echo $current_file_PAGE; ?>">TIN TỨC</a></li>
                                 <li><a href="#" class="active"><?php echo $getBlog['title']; ?></a></li>
                             </ul>
                         </div>
@@ -199,7 +199,7 @@ if (isset($_GET['blog_id'])) :
                                 <div class="post-meta">
                                     <h2><?php echo $getBlog['title']; ?></h2>
                                     <div class="post-info">
-                                        <a href="#"><i class="fa fa-user"></i>SamryShell</a>
+                                        <a href="#"><i class="fa fa-user"></i>Sam Ry</a>
                                         <a href="#"><i class="fa fa-calendar"></i><?php $created_at = date('m/d/Y', strtotime($getBlog['date']));
                                                                                     echo $created_at; ?></a>
                                     </div>
@@ -238,7 +238,7 @@ if (isset($_GET['blog_id'])) :
                                         <div class="comment-info mt-3 mt-md-0">
                                             <div class="comment-info-top d-flex justify-content-between">
                                                 <h3><?php echo $show['name']; ?></h3>
-                                                <a href="#" class="btn-add-to-cart"><i class="fa fa-reply"></i> Reply</a>
+                                                <a href="#" class="btn-add-to-cart"><i class="fa fa-reply"></i>Phản hồi</a>
                                             </div>
                                             <a href="#" class="comment-date">
                                                 <?php
