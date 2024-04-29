@@ -157,7 +157,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                         <h2>Về chúng tôi</h2>
                         <h3>TẦM NHÌN CỦA CHÚNG TÔI</h3>
                         <div class="about-text text_transform_edit" style="font-size: 1.3rem;">
-                            <p>SamryShell là một trong những công ty tiên phong trong việc sáng tạo và sản xuất các sản phẩm làm từ vỏ sò tự nhiên. Với sứ mệnh khám phá và tôn vinh vẻ đẹp của đại dương, SamryShell không chỉ mang đến những sản phẩm độc đáo mà còn góp phần bảo vệ môi trường bằng cách tái chế và sử dụng tài nguyên sinh học bền vững. Nổi tiếng về chất lượng và sự đổi mới, SamryShell đã tạo dựng được vị thế của mình trong ngành và thu hút được sự chú ý trên toàn thế giới.</p>
+                            <p>Sam Ry là Công ty sản xuất nút áo và phôi nút áo từ nguyên vật liệu tự nhiên như vỏ sò, vỏ ốc, vỏ dừa. Đã nhiều thập kỷ qua cho đến nay, vỏ sò, vỏ ốc, từ thiên nhiên rất được nhiều người trên thế giới quan tâm và biết đến.Có nguồn gốc tự nhiên với vẻ đẹp thuần túy của chúng, nút áo làm từ vỏ sò, vỏ ốc, được đưa vào ngành thời trang cao cấp như một phong cách nổi trội.</p>
 
                             <a href="thong-tin-cong-ty/12/gioi-thieu-cong-ty.html" class="btn btn-long-arrow">Đọc thêm</a>
 
