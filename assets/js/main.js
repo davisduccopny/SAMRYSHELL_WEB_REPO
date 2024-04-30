@@ -520,3 +520,17 @@ function LoginCustomer(event){
   });
   
 }
+
+// POPUP SHOW
+
+document.addEventListener("DOMContentLoaded", function() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.add("show");
+  window.addEventListener("click", function(event) {
+      if (!event.target.matches('.popup')) {
+          popup.classList.remove("show");
+      }
+  });
+
+});
+// END POPUP SHOW

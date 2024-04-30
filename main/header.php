@@ -61,15 +61,15 @@
                 <div class="header-right-meta text-right">
                     <ul>
                         <li><a href="#" class="modal-active"><i class="fa fa-search"></i></a></li>
-                        <li class="settings"><a href="#"><i class="fa fa-cog"></i></a>
+                        <li class="settings"><a href="#"><i class="fa fa-cog popup"> <span class="popuptext" id="myPopup">Choose Language!</span></i></a>
                             <div class="site-settings d-block d-sm-flex">
-                                <dl class="currency">
+                                <!-- <dl class="currency">
                                     <dt>Tiền tệ</dt>
                                     <dd class="current"><a href="#">USD</a></dd>
                                     <dd><a href="#">AUD</a></dd>
                                     <dd><a href="#">CAD</a></dd>
                                     <dd><a href="#">BDT</a></dd>
-                                </dl>
+                                </dl> -->
 
                                 <dl class="my-account">
                                     <dt>Tài khoản</dt>
@@ -80,19 +80,19 @@
 
                                 <dl class="language">
                                     <dt>Language</dt>
-                                    <dd> <img src="assets/img/16x12/vn.png" alt="Eng" data-google-lang="" class="language__img"></a></dd>
-                                    <dd><img src="assets/img/16x12/gb.png" alt="VietNam" data-google-lang="en" class="language__img"></a></dd>
-                                    <dd><img src="assets/img/16x12/cn.png" alt="China" data-google-lang="zh-CN" class="language__img"></a></dd>
-                                    <dd><img src="assets/img/16x12/fr.png" alt="France" data-google-lang="fr" class="language__img"></a></dd>
-                                    <dd><img src="assets/img/16x12/it.png" alt="Italy" data-google-lang="de" class="language__img"></a></dd>
+                                    <dd>Vi <img src="assets/img/16x12/vn.png" alt="Eng" data-google-lang="" class="language__img"></a></dd>
+                                    <dd>Eng <img src="assets/img/16x12/gb.png" alt="VietNam" data-google-lang="en" class="language__img"></a></dd>
+                                    <dd>CN <img src="assets/img/16x12/cn.png" alt="China" data-google-lang="zh-CN" class="language__img"></a></dd>
+                                    <dd>Fr <img src="assets/img/16x12/fr.png" alt="France" data-google-lang="fr" class="language__img"></a></dd>
+                                    <dd>Ita <img src="assets/img/16x12/it.png" alt="Italy" data-google-lang="de" class="language__img"></a></dd>
                                 </dl>
                                 <dl class="language">
                                     <dt>Language</dt>
-                                    <dd> <img src="assets/img/16x12/vn.png" alt="Eng" data-google-lang="" class="language__img"></a></dd>
-                                    <dd><img src="assets/img/16x12/in.png" alt="VietNam" data-google-lang="hi" class="language__img"></a></dd>
-                                    <dd><img src="assets/img/16x12/sa.png" alt="China" data-google-lang="ar" class="language__img"></a></dd>
-                                    <dd><img src="assets/img/16x12/pt.png" alt="France" data-google-lang="pt" class="language__img"></a></dd>
-                                    <dd><img src="assets/img/16x12/jp.png" alt="German" data-google-lang="ja" class="language__img"></a></dd>
+                                    <dd>Vi <img src="assets/img/16x12/vn.png" alt="Eng" data-google-lang="" class="language__img"></a></dd>
+                                    <dd>Hi <img src="assets/img/16x12/in.png" alt="VietNam" data-google-lang="hi" class="language__img"></a></dd>
+                                    <dd>Ar <img src="assets/img/16x12/sa.png" alt="China" data-google-lang="ar" class="language__img"></a></dd>
+                                    <dd>Por <img src="assets/img/16x12/pt.png" alt="France" data-google-lang="pt" class="language__img"></a></dd>
+                                    <dd>Jp <img src="assets/img/16x12/jp.png" alt="German" data-google-lang="ja" class="language__img"></a></dd>
                                 </dl>
                             </div>
                         </li>
