@@ -5477,4 +5477,10 @@ fieldset legend {
             opacity: 1;
         }
     }
+    .language dd {
+        text-transform: uppercase;
+    }
+    .language__img{
+        opacity: 1;
+    }
 /* END POPUP CHOOSE LANGUAGE */
