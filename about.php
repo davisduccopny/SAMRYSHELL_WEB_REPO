@@ -190,7 +190,7 @@ if (isset($_GET['blog_id'])) :
                                 <div class="post-meta text-center">
                                     <h2><?php echo $showBlog['title']; ?></h2>
                                     <div class="post-info">
-                                        <a href="<?php echo $current_url_PAGE; ?>"><i class="fa fa-user"></i> ShamryShell</a>
+                                        <a href="<?php echo $current_url_PAGE; ?>"><i class="fa fa-user"></i> Sam Ry</a>
                                         <a href="<?php echo $current_url_PAGE; ?>"><i class="fa fa-calendar"></i><?php $created_at = date('m/d/Y', strtotime($showBlog['date']));
                                                                                                                     echo $created_at; ?></a>
                                     </div>

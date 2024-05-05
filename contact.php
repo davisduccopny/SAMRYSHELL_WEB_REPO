@@ -131,8 +131,8 @@ $current_url_PAGE = $schema_URL . $host_URL . $path_URL;
                                 <div class="contact-method-item">
                                     <span class="method-icon"><i class="fa fa-envelope-open-o"></i></span>
                                     <div class="method-info">
-                                        <h3>FAX</h3>
-                                        <p><?php echo $showGenneral['fax'] ?></p>
+                                        <h3>WhatsApp</h3>
+                                        <p><?php echo mb_substr($showGenneral['phone'], 0, 3) . '.' . mb_substr($showGenneral['phone'], 3, 3) . '.' . mb_substr($showGenneral['phone'], 6, 3). '.' . mb_substr($showGenneral['phone'], 9, 3); ?></p>
                                     </div>
                                 </div>
                             </div>
