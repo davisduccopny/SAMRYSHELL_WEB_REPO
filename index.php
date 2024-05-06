@@ -146,7 +146,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                 <div class="col-lg-6">
                     <!-- About Image Area Start -->
                     <div class="about-image-wrap">
-                        <a href="thong-tin-cong-ty/12/gioi-thieu-cong-ty.html"><img src="../../admin-page/upload/661c0b954dae1.jpg" style="border-radius: 5%;" alt="About Us" class="img-fluid" /></a>
+                        <a href="thong-tin-cong-ty/12/gioi-thieu-cong-ty.html"><img src="./assets/img/about_image.png" style="border-radius: 5%;" alt="About Us" class="img-fluid" /></a>
                     </div>
                     <!-- About Image Area End -->
                 </div>
