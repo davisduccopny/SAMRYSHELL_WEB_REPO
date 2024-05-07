@@ -14,7 +14,7 @@ $CategoryProductModelList = new CategoryProductModel($conn);
 $listcategoryMenu = $CategoryProductModelList->showCategoryProducts();
 
 $productModel = new ProductModel($conn);
-$products = $productModel->showProduct_foruser(1,12);
+$products = $productModel->showProduct_foruser(1, 12);
 // LAY URL TRANG HIEN TAI
 
 $schema_URL = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
@@ -161,7 +161,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
 
                             <a href="thong-tin-cong-ty/12/gioi-thieu-cong-ty.html" class="btn btn-long-arrow">Đọc thêm</a>
 
-                    
+
                             <h4 class="vertical-text">CHÚNG TÔI LÀ AI?</h4>
                         </div>
                     </div>
@@ -216,12 +216,19 @@ $current_cua_hang_PAGE = 'cua-hang.html';
 
                                             <div class="single-product-item text-center">
                                                 <figure class="product-thumb">
-                                                    <a href="san-pham/<?php echo $showProduct_slide['id'] . '/' . $showProduct_slide['slug'] . '.html'; ?>"><img src="<?php echo 'admin-page' . mb_substr($showProduct_slide['image'], 2); ?>" alt="<?php echo 'nút '.$showProduct_slide['name']; ?>" class="img-fluid"></a>
+                                                    <a href="san-pham/<?php echo $showProduct_slide['id'] . '/' . $showProduct_slide['slug'] . '.html'; ?>"><img src="<?php echo 'admin-page' . mb_substr($showProduct_slide['image'], 2); ?>" alt="<?php echo 'nút ' . $showProduct_slide['name']; ?>" class="img-fluid"></a>
                                                 </figure>
 
                                                 <div class="product-details">
                                                     <h2><a href="san-pham/<?php echo $showProduct_slide['id'] . '/' . $showProduct_slide['slug'] . '.html'; ?>"><?php echo $showProduct_slide['name'] ?></a></h2>
-                                                    <span class="price">$<?php echo $showProduct_slide['price'] ?></span>
+                                                    <span class="price"><?php
+                                                                        if ($showProduct_slide['price'] == 0) {
+                                                                            echo 'Liên hệ';
+                                                                        } else {
+                                                                            echo $showProduct_slide['price'];
+                                                                        }
+                                                                        ?>
+                                                    </span>
                                                     <a href="san-pham/<?php echo $showProduct_slide['id'] . '/' . $showProduct_slide['slug'] . '.html'; ?>" class="btn btn-add-to-cart">Xem chi tiết</a>
                                                 </div>
 
@@ -234,7 +241,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                                                 </div>
                                             </div>
                                             <!-- Single Product Item -->
-                                            
+
                                         <?php endforeach; ?>
                                     </div>
                                 </div>
@@ -262,7 +269,14 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                                                         <i class="fa fa-star-half"></i>
                                                         <i class="fa fa-star-o"></i>
                                                     </div>
-                                                    <span class="price">$<?php echo $showProduct_slide_2['price'] ?></span>
+                                                    <span class="price"><?php
+                                                                        if ($showProduct_slide_2['price'] == 0) {
+                                                                            echo 'Liên hệ';
+                                                                        } else {
+                                                                            echo $showProduct_slide_2['price'];
+                                                                        }
+                                                                        ?>
+                                                    </span>
                                                     <a href="san-pham/<?php echo $showProduct_slide_2['id'] . '/' . $showProduct_slide_2['slug'] . '.html'; ?>" class="btn btn-add-to-cart">Xem chi tiết</a>
                                                     <span class="product-bedge">New</span>
                                                 </div>
@@ -302,7 +316,14 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                                                         <i class="fa fa-star-half"></i>
                                                         <i class="fa fa-star-o"></i>
                                                     </div>
-                                                    <span class="price">$<?php echo $showProduct_slide_3['price'] ?></span>
+                                                    <span class="price"><?php
+                                                                        if ($showProduct_slide_3['price'] == 0) {
+                                                                            echo 'Liên hệ';
+                                                                        } else {
+                                                                            echo $showProduct_slide_3['price'];
+                                                                        }
+                                                                        ?>
+                                                    </span>
                                                     <a href="san-pham/<?php echo $showProduct_slide_3['id'] . '/' . $showProduct_slide_3['slug'] . '.html'; ?>" class="btn btn-add-to-cart">Xem chi tiết</a>
                                                     <span class="product-bedge sale">Sale</span>
                                                 </div>
@@ -469,12 +490,19 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                                     <figure class="product-thumb">
                                         <a href="san-pham/<?php echo $product['id'] . '/' . $product['slug'] . '.html'; ?>"><img src="<?php
                                                                                                                                         $strfirt = './admin-page';
-                                                                                                                                        echo  $strfirt . mb_substr($product['image'], 2); ?>" alt="<?php echo 'nút '.$product['name']; ?>" class="img-fluid"></a>
+                                                                                                                                        echo  $strfirt . mb_substr($product['image'], 2); ?>" alt="<?php echo 'nút ' . $product['name']; ?>" class="img-fluid"></a>
                                     </figure>
 
                                     <div class="product-details">
                                         <h2><a href="san-pham/<?php echo $product['id'] . '/' . $product['slug'] . '.html'; ?>"><?php echo $product['name']; ?></a></h2>
-                                        <span class="price"><?php echo $product['price']; ?></span>
+                                        <span class="price"><?php
+                                                            if ($product['price'] == 0) {
+                                                                echo 'Liên hệ';
+                                                            } else {
+                                                                echo $product['price'];
+                                                            }
+                                                            ?>
+                                        </span>
                                         <a href="san-pham/<?php echo $product['id'] . '/' . $product['slug'] . '.html'; ?>" class="btn btn-add-to-cart">Xem chi tiết</a>
                                         <span class="<?php
                                                         if ($product['type_product'] == 'Other') {
