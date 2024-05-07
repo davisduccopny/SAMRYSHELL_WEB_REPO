@@ -146,7 +146,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                 <div class="col-lg-6">
                     <!-- About Image Area Start -->
                     <div class="about-image-wrap">
-                        <a href="thong-tin-cong-ty/12/gioi-thieu-cong-ty.html"><img src="./assets/img/about_image.png" style="border-radius: 5%;" alt="About Us" class="img-fluid" /></a>
+                        <a href="thong-tin-cong-ty/12/gioi-thieu-cong-ty.html"><img src="./assets/img/about_image.png" style="border-radius: 5%;" alt="Giới thiệu về Công ty tnhh SamRy" class="img-fluid" /></a>
                     </div>
                     <!-- About Image Area End -->
                 </div>
@@ -216,7 +216,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
 
                                             <div class="single-product-item text-center">
                                                 <figure class="product-thumb">
-                                                    <a href="san-pham/<?php echo $showProduct_slide['id'] . '/' . $showProduct_slide['slug'] . '.html'; ?>"><img src="<?php echo 'admin-page' . mb_substr($showProduct_slide['image'], 2); ?>" alt="Products" class="img-fluid"></a>
+                                                    <a href="san-pham/<?php echo $showProduct_slide['id'] . '/' . $showProduct_slide['slug'] . '.html'; ?>"><img src="<?php echo 'admin-page' . mb_substr($showProduct_slide['image'], 2); ?>" alt="<?php echo 'nút '.$showProduct_slide['name']; ?>" class="img-fluid"></a>
                                                 </figure>
 
                                                 <div class="product-details">
@@ -234,6 +234,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                                                 </div>
                                             </div>
                                             <!-- Single Product Item -->
+                                            
                                         <?php endforeach; ?>
                                     </div>
                                 </div>
@@ -468,7 +469,7 @@ $current_cua_hang_PAGE = 'cua-hang.html';
                                     <figure class="product-thumb">
                                         <a href="san-pham/<?php echo $product['id'] . '/' . $product['slug'] . '.html'; ?>"><img src="<?php
                                                                                                                                         $strfirt = './admin-page';
-                                                                                                                                        echo  $strfirt . mb_substr($product['image'], 2); ?>" alt="Products" class="img-fluid"></a>
+                                                                                                                                        echo  $strfirt . mb_substr($product['image'], 2); ?>" alt="<?php echo 'nút '.$product['name']; ?>" class="img-fluid"></a>
                                     </figure>
 
                                     <div class="product-details">
