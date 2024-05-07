@@ -124,13 +124,15 @@ $current_file_PAGE = 'cua-hang.html';
                                     <div class="product-thumb-carousel owl-carousel">
                                         <?php
                                         if (!empty($productInfo['images'])) {
+                                            $count_num_seo_img = 0;
                                             foreach ($productInfo['images'] as $image) {
                                                 $image = './admin-page' . substr($image, 2);
                                                 echo '<div class="single-thumb-item">
                                                         <a href="' . $current_file_PAGE . '"><img class="img-fluid"
                                                                                            src="' . $image . '"
-                                                                                           alt="' . 'nút ' . $productInfo['name'] . '"/></a>
+                                                                                           alt="' . 'nút ' . $productInfo['name'] .'/'.$count_num_seo_img. '"/></a>
                                                     </div>';
+                                                $count_num_seo_img++;
                                             }
                                         } else {
                                             echo 'No images available<br>';
