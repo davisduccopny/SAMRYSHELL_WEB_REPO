@@ -14,7 +14,7 @@ $CategoryProductModelList = new CategoryProductModel($conn);
 $listcategoryMenu = $CategoryProductModelList->showCategoryProducts();
 
 $productModel = new ProductModel($conn);
-$products = $productModel->showProduct();
+$products = $productModel->showProduct_foruser(5,12);
 // LAY URL TRANG HIEN TAI
 
 $schema_URL = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https://" : "http://";
