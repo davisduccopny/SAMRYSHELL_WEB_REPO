@@ -231,7 +231,7 @@ $current_file_PAGE = 'cua-hang.html';
                                     <?php foreach ($products_most as $productshowyk) : ?>
                                         <div class="single-product-item">
                                             <figure class="product-thumb">
-                                                <a href="san-pham/<?php echo $productshowyk['id'] ?>/<?php echo $productshowyk['slug'] . '.html' ?>"><img class="mr-2 img-fluid" src="<?php echo '/admin-page' . mb_substr($productshowyk['image'], 2); ?>" alt="Products" /></a>
+                                                <a href="san-pham/<?php echo $productshowyk['id'] ?>/<?php echo $productshowyk['slug'] . '.html' ?>"><img class="mr-2 img-fluid" src="<?php echo '/admin-page' . mb_substr($productshowyk['image'], 2); ?>" alt="<?php echo 'nút '.$productshowyk['name'] ?>" /></a>
                                             </figure>
                                             <div class="product-details">
                                                 <h2><a href="san-pham/<?php echo $productshowyk['id'] ?>/<?php echo $productshowyk['slug'] . '.html' ?>"><?php echo $productshowyk['name'] ?></a></h2>
@@ -282,7 +282,7 @@ $current_file_PAGE = 'cua-hang.html';
                                                 <figure class="product-thumb">
                                                     <a href="<?php echo "san-pham/" . $product['id'] . '/' . $product['slug'] . '.html'  ?>"><img src="<?php
                                                                                                                                                         $strfirt = './admin-page';
-                                                                                                                                                        echo  $strfirt . mb_substr($product['image'], 2); ?>" alt="<?php echo $product['name']; ?>" class="img-fluid" style="height: 195px;"></a>
+                                                                                                                                                        echo  $strfirt . mb_substr($product['image'], 2); ?>" alt="<?php echo 'nút '.$product['name']; ?>" class="img-fluid" style="height: 195px;"></a>
                                                 </figure>
 
                                                 <div class="product-details product-filter-category" data-category="<?php if (isset($_GET['category'])) {
