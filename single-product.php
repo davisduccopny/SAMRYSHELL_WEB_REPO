@@ -52,7 +52,7 @@ $current_file_PAGE = 'cua-hang.html';
     <meta name="twitter:description" content="<?php echo $productInfo['short_description']; ?>">
     <meta name="twitter:image" content="<?php echo _WEB_HOST . '/admin-page' . mb_substr($productInfo['images'][0], 2); ?>">
     <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">
-   
+
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -129,7 +129,7 @@ $current_file_PAGE = 'cua-hang.html';
                                                 echo '<div class="single-thumb-item">
                                                         <a href="' . $current_file_PAGE . '"><img class="img-fluid"
                                                                                            src="' . $image . '"
-                                                                                           alt="'.'nút '.$productInfo['name'].'"/></a>
+                                                                                           alt="' . 'nút ' . $productInfo['name'] . '"/></a>
                                                     </div>';
                                             }
                                         } else {
@@ -154,7 +154,14 @@ $current_file_PAGE = 'cua-hang.html';
                                         <i class="fa fa-star-o"></i>
                                     </div>
 
-                                    <span class="price">$<?php echo $productInfo['price'] ?></span>
+                                    <span class="price"><?php
+                                                        if ($productInfo['price'] == 0) {
+                                                            echo 'Liên hệ';
+                                                        } else {
+                                                            echo $productInfo['price'];
+                                                        }
+                                                        ?>
+                                    </span>
 
                                     <div class="product-info-stock-sku">
                                         <span class="product-stock-status"><?php
