@@ -230,7 +230,7 @@ else {
                             <div class="col-lg-3 col-sm-6 col-12">
                                 <div class="form-group">
                                     <label>Giá sản phẩm</label>
-                                    <input type="number" name="price" value="<?php echo $productInfo['price']?>">
+                                    <input type="text" name="price" value="<?php echo $productInfo['price']?>">
                                 </div>
                             </div>
                             <div class="col-lg-3 col-sm-6 col-12">
