@@ -82,7 +82,7 @@ $current_file_PAGE = 'cua-hang.html';
     <meta name="twitter:description" content="Công ty TNHH Sản xuất Thương mại Samry sản xuất nút áo, phôi nút và các loại trang sức thì vỏ ốc biển. Ghé thăm để lựa chọn cho mình những bộ nút áo ưng ý nhất.">
     <meta name="twitter:image" content="./assets/img/samryshell-logo.jpg">
     <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">
-   
+
     <!-- START SEO JSON -->
     <script type="application/ld+json">
         {
@@ -213,7 +213,14 @@ $current_file_PAGE = 'cua-hang.html';
                                             </figure>
                                             <div class="product-details">
                                                 <h2><a href="san-pham/<?php echo $showlistcat['id'] ?>/<?php echo $showlistcat['slug'] . '.html' ?>"><?php echo $showlistcat['name'] ?></a></h2>
-                                                <span class="price">$<?php echo $showlistcat['price'] ?></span>
+                                                <span class="price"><?php
+                                                                    if ($showlistcat['price'] == 0) {
+                                                                        echo 'Liên hệ';
+                                                                    } else {
+                                                                        echo $showlistcat['price'];
+                                                                    }
+                                                                    ?>
+                                                </span>
 
                                             </div>
                                         </div>
@@ -231,11 +238,18 @@ $current_file_PAGE = 'cua-hang.html';
                                     <?php foreach ($products_most as $productshowyk) : ?>
                                         <div class="single-product-item">
                                             <figure class="product-thumb">
-                                                <a href="san-pham/<?php echo $productshowyk['id'] ?>/<?php echo $productshowyk['slug'] . '.html' ?>"><img class="mr-2 img-fluid" src="<?php echo '/admin-page' . mb_substr($productshowyk['image'], 2); ?>" alt="<?php echo 'nút '.$productshowyk['name'] ?>" /></a>
+                                                <a href="san-pham/<?php echo $productshowyk['id'] ?>/<?php echo $productshowyk['slug'] . '.html' ?>"><img class="mr-2 img-fluid" src="<?php echo '/admin-page' . mb_substr($productshowyk['image'], 2); ?>" alt="<?php echo 'nút ' . $productshowyk['name'] ?>" /></a>
                                             </figure>
                                             <div class="product-details">
                                                 <h2><a href="san-pham/<?php echo $productshowyk['id'] ?>/<?php echo $productshowyk['slug'] . '.html' ?>"><?php echo $productshowyk['name'] ?></a></h2>
-                                                <span class="price">$<?php echo $productshowyk['price'] ?></span>
+                                                <span class="price"><?php
+                                                                    if ($productshowyk['price'] == 0) {
+                                                                        echo 'Liên hệ';
+                                                                    } else {
+                                                                        echo $productshowyk['price'];
+                                                                    }
+                                                                    ?>
+                                                </span>
                                             </div>
                                         </div>
                                     <?php endforeach; ?>
@@ -282,7 +296,7 @@ $current_file_PAGE = 'cua-hang.html';
                                                 <figure class="product-thumb">
                                                     <a href="<?php echo "san-pham/" . $product['id'] . '/' . $product['slug'] . '.html'  ?>"><img src="<?php
                                                                                                                                                         $strfirt = './admin-page';
-                                                                                                                                                        echo  $strfirt . mb_substr($product['image'], 2); ?>" alt="<?php echo 'nút '.$product['name']; ?>" class="img-fluid" style="height: 195px;"></a>
+                                                                                                                                                        echo  $strfirt . mb_substr($product['image'], 2); ?>" alt="<?php echo 'nút ' . $product['name']; ?>" class="img-fluid" style="height: 195px;"></a>
                                                 </figure>
 
                                                 <div class="product-details product-filter-category" data-category="<?php if (isset($_GET['category'])) {
@@ -296,7 +310,13 @@ $current_file_PAGE = 'cua-hang.html';
                                                         <i class="fa fa-star-half"></i>
                                                         <i class="fa fa-star-o"></i>
                                                     </div>
-                                                    <span class="price">$<?php echo $product['price']; ?></span>
+                                                    <span class="price"><?php
+                                                                        if ($product['price'] == 0) {
+                                                                            echo 'Liên hệ';
+                                                                        } else {
+                                                                            echo $product['price'];
+                                                                        }
+                                                                        ?></span>
                                                     <p class="products-desc"><?php echo $product['short_description'] . '.html'; ?></p>
                                                     <a href="<?php echo "san-pham/" . $product['id'] . '/' . $product['slug'] . '.html';  ?>" class="btn btn-add-to-cart">Xem chi tiết</a>
                                                     <a href="<?php echo "san-pham/" . $product['id'] . '/' . $product['slug'] . '.html'; ?>" class="btn btn-add-to-cart btn-whislist">+
