@@ -129,7 +129,7 @@ $current_file_PAGE = 'cua-hang.html';
                                                 echo '<div class="single-thumb-item">
                                                         <a href="' . $current_file_PAGE . '"><img class="img-fluid"
                                                                                            src="' . $image . '"
-                                                                                           alt="Product"/></a>
+                                                                                           alt="'.$productInfo['name'].'"/></a>
                                                     </div>';
                                             }
                                         } else {
