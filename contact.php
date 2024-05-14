@@ -27,7 +27,7 @@ $current_url_PAGE = $schema_URL . $host_URL . $path_URL;
 <html class="no-js" lang="zxx">
 
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Liên hệ || Công ty TNHH SX-TM Samry</title>

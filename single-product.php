@@ -35,7 +35,7 @@ $current_file_PAGE = 'cua-hang.html';
 <html class="no-js" lang="zxx">
 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> <?php echo $productInfo['name']; ?> || Phôi | Nút áo Samry</title>
