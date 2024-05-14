@@ -88,7 +88,7 @@
                                 </dl>
                                 <dl class="language">
                                     <dt>Language</dt>
-                                    <dd>Vi <img src="assets/img/16x12/vn.png" alt="Eng" data-google-lang="" class="language__img"></a></dd>
+                                    <dd>Vi <img src="assets/img/16x12/vn.png" alt="Eng" data-google-lang="auto" class="language__img"></a></dd>
                                     <dd>Hi <img src="assets/img/16x12/in.png" alt="VietNam" data-google-lang="hi" class="language__img"></a></dd>
                                     <dd>Ar <img src="assets/img/16x12/sa.png" alt="China" data-google-lang="ar" class="language__img"></a></dd>
                                     <dd>Por <img src="assets/img/16x12/pt.png" alt="France" data-google-lang="pt" class="language__img"></a></dd>
