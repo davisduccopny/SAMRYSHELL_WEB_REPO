@@ -15,9 +15,9 @@ function TranslateWidgetIsLoaded() {
 }
 
 function TranslateInit(config) {
-    if (config.langFirstVisit && !$.cookie("googtrans")) {
+    if (typeof config !== 'undefined' && typeof config.langFirstVisit !== 'undefined' && config.langFirstVisit && !$.cookie("googtrans")) {
         TranslateCookieHandler("/auto/" + config.langFirstVisit);
-    }
+    }   
 
     let code = TranslateGetCode(config);
 
