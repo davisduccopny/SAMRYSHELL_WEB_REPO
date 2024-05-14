@@ -15,9 +15,6 @@ function TranslateWidgetIsLoaded() {
 }
 
 function TranslateInit(config) {
-    var config = {
-        langFirstVisit: 'vi' // Hoặc ngôn ngữ mặc định bạn muốn
-    };
     if (typeof config !== 'undefined' && typeof config.langFirstVisit !== 'undefined' && config.langFirstVisit && !$.cookie("googtrans")) {
         TranslateCookieHandler("/auto/" + config.langFirstVisit);
     }   
