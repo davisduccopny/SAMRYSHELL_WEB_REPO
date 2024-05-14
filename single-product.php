@@ -38,17 +38,17 @@ $current_file_PAGE = 'cua-hang.html';
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> <?php echo $productInfo['name']; ?> || Công ty TNHH SX-TM Samry</title>
+    <title> <?php echo $productInfo['name']; ?> || Phôi | Nút áo Samry</title>
     <meta name="description" content="<?php echo $productInfo['short_description']; ?>">
     <!-- Thẻ meta cho Facebook Open Graph -->
-    <meta property="og:title" content="<?php echo $productInfo['name']; ?> || Công ty TNHH SX-TM Samry">
+    <meta property="og:title" content="<?php echo $productInfo['name']; ?> || Phôi | Nút áo Samry">
     <meta property="og:description" content="<?php echo $productInfo['short_description']; ?>">
     <meta property="og:image" content="<?php echo _WEB_HOST . '/admin-page' . mb_substr($productInfo['images'][0], 2); ?>">
     <meta property="og:url" content="<?php echo $current_url_PAGE; ?>">
     <meta property="og:type" content="website">
     <!-- Thẻ meta cho Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="<?php echo $productInfo['name']; ?> || Công ty TNHH SX-TM Samry">
+    <meta name="twitter:title" content="<?php echo $productInfo['name']; ?> || Phôi | Nút áo Samry">
     <meta name="twitter:description" content="<?php echo $productInfo['short_description']; ?>">
     <meta name="twitter:image" content="<?php echo _WEB_HOST . '/admin-page' . mb_substr($productInfo['images'][0], 2); ?>">
     <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">
@@ -57,7 +57,7 @@ $current_file_PAGE = 'cua-hang.html';
         {
             "@context": "https://schema.org",
             "@type": "Product",
-            "name": "<?php echo $productInfo['name']; ?>",
+            "name": "Nút áo | Phôi <?php echo $productInfo['name']; ?>",
             "description": "<?php echo $productInfo['short_description']; ?>",
             "brand": {
                 "@type": "Brand",
@@ -66,7 +66,7 @@ $current_file_PAGE = 'cua-hang.html';
             "image": "<?php echo _WEB_HOST . '/admin-page' . mb_substr($productInfo['images'][0], 2); ?>",
             "offers": {
                 "@type": "Offer",
-                "priceCurrency": "VND",
+                "priceCurrency": "USD",
                 "price": "<?php echo $productInfo['price']; ?>",
                 "availability": "còn hàng",
                 "seller": {
@@ -126,7 +126,7 @@ $current_file_PAGE = 'cua-hang.html';
                                         if (!empty($productInfo['images'])) {
                                             $count_num_seo_img = 0;
                                             foreach ($productInfo['images'] as $image) {
-                                                $image = './admin-page' . substr($image, 2);
+                                                $image = 'admin-page' . substr($image, 2);
                                                 echo '<div class="single-thumb-item">
                                                         <a href="' . $current_file_PAGE . '"><img class="img-fluid"
                                                                                            src="' . $image . '"

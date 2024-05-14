@@ -83,23 +83,6 @@ if (isset($_GET['blog_id'])) :
                     }
                 }
             }, {
-                "@context": "https://schema.org/",
-                "@type": "Rating",
-                "itemReviewed": {
-                    "@type": "CreativeWork",
-                    "name": "<?php echo $getBlog['title']; ?>",
-                    "url": "<?php echo $current_url_PAGE; ?>"
-                },
-                "ratingValue": 5,
-                "bestRating": 5,
-                "worstRating": 1,
-                "author": {
-                    "@type": "Organization",
-                    "name": "Công ty TNHH SẢN XUẤT THƯƠNG MẠI Samry"
-                },
-                "reviewBody": "This is a great post!",
-                "datePublished": "<?php echo $getBlog['date']; ?>"
-            }, {
                 "@context": "https://schema.org",
                 "@type": "ClaimReview",
                 "url": "<?php echo $current_url_PAGE; ?>",

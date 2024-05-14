@@ -16,7 +16,7 @@ if (!defined('DB_DATABASE')) {
     define('DB_DATABASE', 'samryvnc_samryshell');
 }
 if (!defined('_WEB_HOST')) {
-    define('_WEB_HOST', 'http://'.$_SERVER['HTTP_HOST'].'/');
+    define('_WEB_HOST', 'https://'.$_SERVER['HTTP_HOST'].'/');
 }
 
 $conn = mysqli_connect(DB_SERVER, DB_USERNAME ,DB_PASSWORD, DB_DATABASE);
