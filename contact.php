@@ -32,6 +32,7 @@ $current_url_PAGE = $schema_URL . $host_URL . $path_URL;
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Liên hệ || Công ty TNHH SX-TM Samry</title>
     <meta name="description" content="Liên hệ Samryvn || Liên hệ hotline công ty 0936.095.515, email: support@samryvn.com, Cập nhật những thông tin mới nhất liên quan đến doanh nghiệp">
+    <meta name="keywords" content="Vỏ ốc, Shell, seashell, nút áo, phôi nút, shirt button, Button blank">
     <!-- Thẻ meta cho Facebook Open Graph -->
     <meta property="og:title" content="Liên hệ || Công ty TNHH SX-TM Samry">
     <meta property="og:description" content="Liên hệ hotline công ty 0936.095.515, email: support@samryvn.com, Cập nhật những thông tin mới nhất liên quan đến doanh nghiệp">

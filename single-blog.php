@@ -47,6 +47,7 @@ if (isset($_GET['blog_id'])) :
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title><?php echo $getBlog['title']; ?></title>
         <meta name="description" content="<?php echo $getBlog['description']; ?>">
+        <meta name="keywords" content="<?php echo $getBlog['title']; ?>">
         <!-- Thẻ meta cho Facebook Open Graph -->
         <meta property="og:title" content="<?php echo $getBlog['title']; ?>">
         <meta property="og:description" content="<?php echo $getBlog['description']; ?>">

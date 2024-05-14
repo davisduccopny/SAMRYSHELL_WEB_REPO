@@ -70,6 +70,7 @@ $current_file_PAGE = 'cua-hang.html';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Trang bán hàng || Công ty TNHH Sản xuất Thương mại Samry</title>
     <meta name="description" content="Trang bán hàng || Công ty TNHH Sản xuất Thương mại Samry sản xuất nút áo, phôi nút và các loại trang sức thì vỏ ốc biển. Ghé thăm để lựa chọn cho mình những bộ nút áo ưng ý nhất.">
+    <meta name="keywords" content="Vỏ ốc, Shell, seashell, nút áo, phôi nút, shirt button, Button blank, mua nút áo, sell blank, sell button">
     <!-- Thẻ meta cho Facebook Open Graph -->
     <meta property="og:title" content="Trang bán hàng || Công ty TNHH Sản xuất Thương mại Samry">
     <meta property="og:description" content="Công ty TNHH Sản xuất Thương mại Samry sản xuất nút áo, phôi nút và các loại trang sức thì vỏ ốc biển. Ghé thăm để lựa chọn cho mình những bộ nút áo ưng ý nhất.">

@@ -38,17 +38,18 @@ $current_file_PAGE = 'cua-hang.html';
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> <?php echo $productInfo['name']; ?> || Phôi | Nút áo Samry</title>
+    <title> <?php echo $productInfo['name']; ?> || Phôi | Nút áo Samry || Blank || Button</title>
     <meta name="description" content="<?php echo $productInfo['short_description']; ?>">
+    <meta name="keywords" content="nút áo , nut ao, phôi nút áo,button <?php echo $productInfo['name']; ?>">
     <!-- Thẻ meta cho Facebook Open Graph -->
-    <meta property="og:title" content="<?php echo $productInfo['name']; ?> || Phôi | Nút áo Samry">
+    <meta property="og:title" content="<?php echo $productInfo['name']; ?> || Phôi | Nút áo Samry || Blank || Button">
     <meta property="og:description" content="<?php echo $productInfo['short_description']; ?>">
     <meta property="og:image" content="<?php echo _WEB_HOST . '/admin-page' . mb_substr($productInfo['images'][0], 2); ?>">
     <meta property="og:url" content="<?php echo $current_url_PAGE; ?>">
     <meta property="og:type" content="website">
     <!-- Thẻ meta cho Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="<?php echo $productInfo['name']; ?> || Phôi | Nút áo Samry">
+    <meta name="twitter:title" content="<?php echo $productInfo['name']; ?> || Phôi | Nút áo Samry || Blank || Button">
     <meta name="twitter:description" content="<?php echo $productInfo['short_description']; ?>">
     <meta name="twitter:image" content="<?php echo _WEB_HOST . '/admin-page' . mb_substr($productInfo['images'][0], 2); ?>">
     <link rel="canonical" href="<?php echo $current_url_PAGE; ?>">

@@ -66,6 +66,7 @@ $current_file_PAGE = 'bai-viet.html';
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bài viết - chia sẻ kiến thức || Công ty TNHH SX-TM Samry</title>
     <meta name="description" content="Trang bài viết, tin tức, giới thiệu những tin tức mới nhất về công ty sản xuất- thương mại Samry">
+    <meta name="keywords" content="Vỏ ốc, Shell, seashell, nút áo, phôi nút, blog seashell, tin tức vỏ ốc, shirt button, Button blank">
     <!-- Thẻ meta cho Facebook Open Graph -->
     <meta property="og:title" content="Bài viết - chia sẻ kiến thức || Công ty TNHH SX-TM Samry">
     <meta property="og:description" content="Trang bài viết, tin tức, giới thiệu những tin tức mới nhất về công ty sản xuất- thương mại Samry">
